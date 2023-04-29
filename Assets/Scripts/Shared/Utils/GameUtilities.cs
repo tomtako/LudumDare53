@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.CompilerServices;
-using Ionic.Zlib;
 using UnityEngine;
 using UnityEngine.Networking;
 using Random = UnityEngine.Random;

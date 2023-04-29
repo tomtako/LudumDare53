@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34404cb99b59bb543805a55e3c469d61, type: 3}
+  m_Name: car
+  m_EditorClassIdentifier: 
+  editorConfirmations: 1
+  animations:
+  - speedRatio: 1
+    loop: 0
+    frameToLoop: 0
+    frameDatas:
+    - sprite: {fileID: 5614673921922855183, guid: fca79036bc2534407a4b1c5f3497f209, type: 3}
+      time: 0.08
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 7893694464857013307, guid: fca79036bc2534407a4b1c5f3497f209, type: 3}
+      time: 0.08
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 7222680328610415192, guid: fca79036bc2534407a4b1c5f3497f209, type: 3}
+      time: 0.08
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 119403808868268919, guid: fca79036bc2534407a4b1c5f3497f209, type: 3}
+      time: 0.08
+      eventEnabled: 0
+      eventName: 
+    name: damage
+    selectedIndex: 3
+    newFramesTime: 0.08
+    setFramesTime: 0.1
+  - speedRatio: 1
+    loop: 0
+    frameToLoop: 0
+    frameDatas:
+    - sprite: {fileID: -8030835215644163416, guid: fca79036bc2534407a4b1c5f3497f209, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 6656177661250876350, guid: fca79036bc2534407a4b1c5f3497f209, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: -6623931398525493558, guid: fca79036bc2534407a4b1c5f3497f209, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 5390159895719797930, guid: fca79036bc2534407a4b1c5f3497f209, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 7200212785383552425, guid: fca79036bc2534407a4b1c5f3497f209, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 1379436920523193030, guid: fca79036bc2534407a4b1c5f3497f209, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 6491933170416096035, guid: fca79036bc2534407a4b1c5f3497f209, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: -5875692194955402758, guid: fca79036bc2534407a4b1c5f3497f209, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: -7936240278805657679, guid: fca79036bc2534407a4b1c5f3497f209, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: -6417879206789918286, guid: fca79036bc2534407a4b1c5f3497f209, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 9018742084873354323, guid: fca79036bc2534407a4b1c5f3497f209, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 2169203697078308770, guid: fca79036bc2534407a4b1c5f3497f209, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    name: move
+    selectedIndex: 0
+    newFramesTime: 0.05
+    setFramesTime: 0.1

@@ -314,6 +314,22 @@ public class SpriteAnimation : MonoBehaviour
         SetCurrentFrame();
     }
 
+    public void SetFrame(string animName, int frame)
+    {
+        if (animationsByName == null || list == null)
+        {
+            UpdateAnimations();
+        }
+
+        SetCurrentAnimation(animName, false, frame);
+
+        if (CurrentAnimation != null && CurrentAnimation.Valid())
+        {
+            PlayCurrentAnim();
+            playing = false;
+        }
+    }
+
     protected void SetCurrentFrame()
     {
         // if (CurrentAnimation?.frameDatas == null)

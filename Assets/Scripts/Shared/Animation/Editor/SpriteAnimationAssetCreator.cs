@@ -8,7 +8,7 @@ using System.IO;
 public class SpriteAnimationAssetCreation
 {
     public const float DEFAULT_FRAME_TIME = 0.04F;
-    public const string ANIMATION_SAVE_PATH = "Assets/Source/Animation/";
+    public const string ANIMATION_SAVE_PATH = "Assets/Animations/";
 
     [MenuItem("Assets/Sprite/Create/Animation Asset")]
     public static void CreateCustom()

@@ -1,30 +1,78 @@
 using System;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.GameCenter;
 using Random = UnityEngine.Random;
 
 namespace DefaultNamespace
 {
     public class GameManager : MonoBehaviour
     {
+        public enum GameState
+        {
+            Title,
+            Gameplay,
+            TimesUp,
+            NewDelivery,
+            Served,
+            GameOver,
+        }
+
+        public static GameManager Instance;
         public int maxGameTime = 100;
         public float minimumDistanceBetweenDeliveries;
+        public float moneyDisplayAddSpeed = 5;
+        public float moneyGainedFromHittingAPedestrian = .5f;
+        public float moneyGainedFromHittingACar = 1f;
+
+
+        public GameObject titleUi;
+        public GameObject gameplayUi;
+        public GameObject timesUpUi;
+        public GameObject newDeliveryUi;
+        public GameObject servedUi;
+        public GameObject gameOverUi;
+
         public TextMeshProUGUI gameTimer;
         public PlayerInput player;
         public DeliveryArrow arrow;
+        public TextMeshProUGUI moneyLabel;
 
         private float m_currentGameTime;
         private Vector2 m_currentDeliveryPosition;
 
+        private float m_targetMoney;
+        private float m_currentMoney;
+
+        private int m_pedestriansKilled;
+        private int m_carsDestroyed;
+        private int m_offendersServed;
+
+        private List<GameObject> m_menus;
+
+        private GameState m_currentGameState;
+
         private void Awake()
         {
+            Instance = this;
+
             m_currentGameTime = maxGameTime;
+            m_currentGameState = GameState.Gameplay;
+
+            m_menus = new List<GameObject>();
+            m_menus.Add(titleUi);
+            m_menus.Add(gameplayUi);
 
             NewDelivery();
         }
 
         private void Update()
         {
+
+            m_currentMoney = Mathf.MoveTowards(m_currentMoney, m_targetMoney, moneyDisplayAddSpeed * Time.deltaTime);
+            moneyLabel.text = m_currentMoney.ToString("C", System.Globalization.CultureInfo.GetCultureInfo("en-US"));
+
             m_currentGameTime -= Time.deltaTime;
 
             if (m_currentGameTime < 0)
@@ -54,6 +102,34 @@ namespace DefaultNamespace
 
                 m_currentDeliveryPosition = new Vector2(x, y);
             }
+        }
+
+        public void AddMoney(float money)
+        {
+            m_targetMoney += money;
+        }
+
+        public void OnHitPedestrian()
+        {
+            m_pedestriansKilled++;
+            AddMoney(moneyGainedFromHittingAPedestrian);
+        }
+
+        public void OnHitCar()
+        {
+            m_carsDestroyed++;
+            AddMoney(moneyGainedFromHittingACar);
+        }
+
+        public GameState GetCurrentState()
+        {
+            return m_currentGameState;
+        }
+
+        public void SetGameState(GameState state)
+        {
+            m_currentGameState = state;
+
         }
 
         private void GameOver()

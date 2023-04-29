@@ -1,4 +1,5 @@
 using System;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace DefaultNamespace
@@ -9,6 +10,8 @@ namespace DefaultNamespace
         public float bloodTrailTime = 3;
         public float speedUpFromPedestrians = 2;
         public float slowDownFromCars = 5f;
+        public int carFrames = 12;
+        public float angleCorrection = 180;
 
         private CarController m_controller;
         private Quaternion initialRotation;
@@ -22,6 +25,12 @@ namespace DefaultNamespace
 
         private void Update()
         {
+            if (GameManager.Instance.GetCurrentState() != GameManager.GameState.Gameplay)
+            {
+                m_controller.RigidBody.velocity = Vector2.zero;
+                return;
+            }
+
             Vector2 input = new Vector2(0, 0);
             input.x = Input.GetAxisRaw("Horizontal");
             input.y = Input.GetAxisRaw("Vertical");
@@ -40,26 +49,32 @@ namespace DefaultNamespace
             animator.transform.rotation = initialRotation;
         }
 
+
         private void UpdateAnimations()
         {
-            // not moving.. can use the last frame.
-            // if (m_controller.RigidBody.velocity.magnitude <= 0)
-            // {
-            //     return;
-            // }
+            if (m_controller.RigidBody.velocity.sqrMagnitude <= 0)
+            {
+                return;
+            }
 
             Vector2 direction = m_controller.RigidBody.velocity.normalized;
+
+            if (direction.x > 0)
+            {
+                direction.y *= -1;
+            }
+
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
-            // Adjust the angle based on the desired orientation
-            angle += 90f;
+            angle += angleCorrection;
+
+            //var angle0 = angle;
 
             if (angle < 0f)
             {
                 angle += 360f;
             }
 
-            // Flip the angle horizontally to make 0 down and 180 up
             angle *= -1f;
 
             if (angle < 0f)
@@ -68,8 +83,17 @@ namespace DefaultNamespace
             }
 
             var halfAngle = angle > 180f ?  angle - 180f : angle;
-            var animIndex = Mathf.RoundToInt(halfAngle / (180f / 11f) );
+            var animIndex = Mathf.RoundToInt(halfAngle / (180f / carFrames) );
+
+            if (animIndex > carFrames)
+            {
+                animIndex = carFrames;
+            }
+
             animator.SetFrame("move", animIndex);
+            animator.renderer.flipX = direction.x < 0;
+
+            //Debug.Log($"Angle0 ={angle0} Angle ={angle} halfAngle={halfAngle}");
         }
 
         public bool DidHitPedestrian()
@@ -77,20 +101,17 @@ namespace DefaultNamespace
             return m_hitPedestrianTimer > 0;
         }
 
-        private void OnCollisionEnter2D(Collision2D col)
-        {
-            Debug.Log(col.gameObject.tag);
-
-            if (col.gameObject.CompareTag("Pedestrian"))
-            {
-                m_hitPedestrianTimer = bloodTrailTime;
-            }
-        }
-
         private void OnTriggerEnter2D(Collider2D col)
         {
+            if (GameManager.Instance.GetCurrentState() != GameManager.GameState.Gameplay)
+            {
+                return;
+            }
+
             if (col.CompareTag("Pedestrian"))
             {
+                GameManager.Instance.OnHitPedestrian();
+
                 CameraFollower.Instance.Shake();
                 m_hitPedestrianTimer = bloodTrailTime;
                 var pedestrian = col.gameObject.GetComponent<PedestrianController>();
@@ -107,6 +128,8 @@ namespace DefaultNamespace
 
                 if (!car.Damaged())
                 {
+                    GameManager.Instance.OnHitCar();
+
                     car.OnHit(m_controller);
 
                     //m_controller.RigidBody.velocity = Vector2.zero;

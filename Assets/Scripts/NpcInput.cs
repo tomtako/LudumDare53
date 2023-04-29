@@ -64,6 +64,11 @@ namespace DefaultNamespace
 
         private void Update()
         {
+            if (GameManager.Instance.GetCurrentState() != GameManager.GameState.Gameplay)
+            {
+                return;
+            }
+
             if (Damaged())
             {
                 m_isMoving = false;

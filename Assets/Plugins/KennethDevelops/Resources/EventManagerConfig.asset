@@ -1,0 +1,518 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 453552b856bf7bc4f977df814bb83d5e, type: 3}
+  m_Name: EventManagerConfig
+  m_EditorClassIdentifier: 
+  events:
+    keys:
+    - OnGameStart
+    - OnGameOver
+    - OnEnemyKilled
+    - OnPlayerDeath
+    - OnPowerupSelected
+    - OnFadeOut
+    - OnGoalReached
+    - OnPlayerHeal
+    - OnPlayerHurt
+    - OnPlayerDmgUpdate
+    - OnPlayerMove
+    - OnLayoutGenerated
+    - OnTileSelected
+    - OnPickupCoin
+    - OnShopEnter
+    - OnShopExit
+    - OnPurchasedItem
+    - OnBonusHealthGranted
+    - OnPickupKey
+    - OnEnemyMove
+    - OnAllEnemiesKilled
+    - OnSwipe
+    - OnTileEmptied
+    - OnPlayerShieldUpdate
+    - OnPlayerRevive
+    - OnLevelUp
+    - OnUpgradeChosen
+    - OnExpUpdate
+    - OnGoalComplete
+    - OnClearStage
+    - OnTurnStarted
+    - OnTurnEnd
+    - OnSpellCastStarted
+    - OnSpellCastEnd
+    - OnMerchantApproached
+    - OnScoreUpdated
+    - OnMerchantDischarged
+    values:
+    - name: OnGameStart
+      debug: 0
+      parameters:
+        keys: []
+        values: []
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnGameOver
+      debug: 0
+      parameters:
+        keys: []
+        values: []
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnEnemyKilled
+      debug: 0
+      parameters:
+        keys:
+        - exp
+        - x
+        - y
+        - type
+        - rewardTypes
+        - rewardRarities
+        - alwaysDropItem
+        values:
+        - name: exp
+          type: 1
+          _defaultValue: 0001000000ffffffff010000000000000004010000000c53797374656d2e496e74333201000000076d5f76616c75650008000000000b
+          foldout: 1
+        - name: x
+          type: 1
+          _defaultValue: 0001000000ffffffff010000000000000004010000000c53797374656d2e496e74333201000000076d5f76616c75650008000000000b
+          foldout: 1
+        - name: y
+          type: 1
+          _defaultValue: 0001000000ffffffff010000000000000004010000000c53797374656d2e496e74333201000000076d5f76616c75650008000000000b
+          foldout: 1
+        - name: type
+          type: 3
+          _defaultValue: 0001000000ffffffff01000000000000000601000000000b
+          foldout: 1
+        - name: rewardTypes
+          type: 5
+          _defaultValue: 0001000000ffffffff01000000000000000601000000000b
+          foldout: 1
+        - name: rewardRarities
+          type: 5
+          _defaultValue: 0001000000ffffffff01000000000000000601000000000b
+          foldout: 1
+        - name: alwaysDropItem
+          type: 0
+          _defaultValue: 0001000000ffffffff010000000000000004010000000e53797374656d2e426f6f6c65616e01000000076d5f76616c75650001000b
+          foldout: 1
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnPlayerDeath
+      debug: 0
+      parameters:
+        keys: []
+        values: []
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnPowerupSelected
+      debug: 0
+      parameters:
+        keys:
+        - powerup
+        - uiColor
+        values:
+        - name: powerup
+          type: 5
+          _defaultValue: 0001000000ffffffff01000000000000000601000000000b
+          foldout: 1
+        - name: uiColor
+          type: 5
+          _defaultValue: 0001000000ffffffff01000000000000000601000000000b
+          foldout: 1
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnFadeOut
+      debug: 0
+      parameters:
+        keys: []
+        values: []
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnGoalReached
+      debug: 0
+      parameters:
+        keys: []
+        values: []
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnPlayerHeal
+      debug: 0
+      parameters:
+        keys:
+        - currentHealth
+        - maxHealth
+        - delta
+        values:
+        - name: currentHealth
+          type: 1
+          _defaultValue: 0001000000ffffffff010000000000000004010000000c53797374656d2e496e74333201000000076d5f76616c75650008000000000b
+          foldout: 1
+        - name: maxHealth
+          type: 1
+          _defaultValue: 0001000000ffffffff010000000000000004010000000c53797374656d2e496e74333201000000076d5f76616c75650008000000000b
+          foldout: 1
+        - name: delta
+          type: 1
+          _defaultValue: 0001000000ffffffff010000000000000004010000000c53797374656d2e496e74333201000000076d5f76616c75650008000000000b
+          foldout: 1
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnPlayerHurt
+      debug: 0
+      parameters:
+        keys:
+        - currentHealth
+        - maxHealth
+        - delta
+        values:
+        - name: currentHealth
+          type: 1
+          _defaultValue: 0001000000ffffffff010000000000000004010000000c53797374656d2e496e74333201000000076d5f76616c75650008000000000b
+          foldout: 1
+        - name: maxHealth
+          type: 1
+          _defaultValue: 0001000000ffffffff010000000000000004010000000c53797374656d2e496e74333201000000076d5f76616c75650008000000000b
+          foldout: 1
+        - name: delta
+          type: 1
+          _defaultValue: 0001000000ffffffff010000000000000004010000000c53797374656d2e496e74333201000000076d5f76616c75650008000000000b
+          foldout: 1
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnPlayerDmgUpdate
+      debug: 0
+      parameters:
+        keys:
+        - damage
+        values:
+        - name: damage
+          type: 1
+          _defaultValue: 0001000000ffffffff010000000000000004010000000c53797374656d2e496e74333201000000076d5f76616c75650008000000000b
+          foldout: 1
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnPlayerMove
+      debug: 0
+      parameters:
+        keys:
+        - x
+        - y
+        - updated
+        values:
+        - name: x
+          type: 1
+          _defaultValue: 0001000000ffffffff010000000000000004010000000c53797374656d2e496e74333201000000076d5f76616c75650008ffffffff0b
+          foldout: 1
+        - name: y
+          type: 1
+          _defaultValue: 0001000000ffffffff010000000000000004010000000c53797374656d2e496e74333201000000076d5f76616c75650008ffffffff0b
+          foldout: 1
+        - name: updated
+          type: 0
+          _defaultValue: 0001000000ffffffff010000000000000004010000000e53797374656d2e426f6f6c65616e01000000076d5f76616c75650001000b
+          foldout: 1
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnLayoutGenerated
+      debug: 0
+      parameters:
+        keys:
+        - Path
+        values:
+        - name: Path
+          type: 5
+          _defaultValue: 0001000000ffffffff01000000000000000601000000000b
+          foldout: 1
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnTileSelected
+      debug: 0
+      parameters:
+        keys:
+        - TilePosition
+        values:
+        - name: TilePosition
+          type: 5
+          _defaultValue: 0001000000ffffffff01000000000000000601000000000b
+          foldout: 1
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnPickupCoin
+      debug: 0
+      parameters:
+        keys:
+        - coins
+        values:
+        - name: coins
+          type: 1
+          _defaultValue: 0001000000ffffffff010000000000000004010000000c53797374656d2e496e74333201000000076d5f76616c75650008000000000b
+          foldout: 1
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnShopEnter
+      debug: 0
+      parameters:
+        keys:
+        - grid
+        values:
+        - name: grid
+          type: 5
+          _defaultValue: 0001000000ffffffff01000000000000000601000000000b
+          foldout: 1
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnShopExit
+      debug: 0
+      parameters:
+        keys: []
+        values: []
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnPurchasedItem
+      debug: 0
+      parameters:
+        keys:
+        - item
+        - cost
+        values:
+        - name: item
+          type: 4
+          _defaultValue: 0001000000ffffffff01000000000000000601000000000b
+          foldout: 1
+        - name: cost
+          type: 1
+          _defaultValue: 0001000000ffffffff010000000000000004010000000c53797374656d2e496e74333201000000076d5f76616c75650008050000000b
+          foldout: 1
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnBonusHealthGranted
+      debug: 0
+      parameters:
+        keys:
+        - bonus
+        values:
+        - name: bonus
+          type: 1
+          _defaultValue: 0001000000ffffffff010000000000000004010000000c53797374656d2e496e74333201000000076d5f76616c75650008000000000b
+          foldout: 1
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnPickupKey
+      debug: 0
+      parameters:
+        keys: []
+        values: []
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnEnemyMove
+      debug: 0
+      parameters:
+        keys:
+        - updated
+        - x
+        - y
+        - prevX
+        - prevY
+        values:
+        - name: updated
+          type: 0
+          _defaultValue: 0001000000ffffffff010000000000000004010000000e53797374656d2e426f6f6c65616e01000000076d5f76616c75650001010b
+          foldout: 0
+        - name: x
+          type: 1
+          _defaultValue: 0001000000ffffffff010000000000000004010000000c53797374656d2e496e74333201000000076d5f76616c75650008000000000b
+          foldout: 0
+        - name: y
+          type: 1
+          _defaultValue: 0001000000ffffffff010000000000000004010000000c53797374656d2e496e74333201000000076d5f76616c75650008000000000b
+          foldout: 0
+        - name: prevX
+          type: 1
+          _defaultValue: 0001000000ffffffff010000000000000004010000000c53797374656d2e496e74333201000000076d5f76616c75650008000000000b
+          foldout: 1
+        - name: prevY
+          type: 1
+          _defaultValue: 0001000000ffffffff010000000000000004010000000c53797374656d2e496e74333201000000076d5f76616c75650008000000000b
+          foldout: 1
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnAllEnemiesKilled
+      debug: 0
+      parameters:
+        keys: []
+        values: []
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnSwipe
+      debug: 0
+      parameters:
+        keys:
+        - direction
+        values:
+        - name: direction
+          type: 6
+          _defaultValue: 0001000000ffffffff01000000000000000c0200000050417373656d626c792d4353686172702d6669727374706173732c2056657273696f6e3d302e302e302e302c2043756c747572653d6e65757472616c2c205075626c69634b6579546f6b656e3d6e756c6c05010000001353657269616c697a61626c65566563746f7232020000000178017900000b0b0200000000000000000000000b
+          foldout: 1
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnTileEmptied
+      debug: 0
+      parameters:
+        keys:
+        - x
+        - y
+        values:
+        - name: x
+          type: 1
+          _defaultValue: 0001000000ffffffff010000000000000004010000000c53797374656d2e496e74333201000000076d5f76616c75650008000000000b
+          foldout: 1
+        - name: y
+          type: 1
+          _defaultValue: 0001000000ffffffff010000000000000004010000000c53797374656d2e496e74333201000000076d5f76616c75650008000000000b
+          foldout: 1
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnPlayerShieldUpdate
+      debug: 0
+      parameters:
+        keys:
+        - shieldDurability
+        values:
+        - name: shieldDurability
+          type: 1
+          _defaultValue: 0001000000ffffffff010000000000000004010000000c53797374656d2e496e74333201000000076d5f76616c75650008000000000b
+          foldout: 1
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnPlayerRevive
+      debug: 0
+      parameters:
+        keys: []
+        values: []
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnLevelUp
+      debug: 0
+      parameters:
+        keys: []
+        values: []
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnUpgradeChosen
+      debug: 0
+      parameters:
+        keys:
+        - upgrade
+        values:
+        - name: upgrade
+          type: 5
+          _defaultValue: 0001000000ffffffff01000000000000000601000000000b
+          foldout: 1
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnExpUpdate
+      debug: 0
+      parameters:
+        keys:
+        - level
+        - currentExpPoints
+        - neededExpPoints
+        values:
+        - name: level
+          type: 1
+          _defaultValue: 0001000000ffffffff010000000000000004010000000c53797374656d2e496e74333201000000076d5f76616c75650008000000000b
+          foldout: 1
+        - name: currentExpPoints
+          type: 1
+          _defaultValue: 0001000000ffffffff010000000000000004010000000c53797374656d2e496e74333201000000076d5f76616c75650008000000000b
+          foldout: 1
+        - name: neededExpPoints
+          type: 1
+          _defaultValue: 0001000000ffffffff010000000000000004010000000c53797374656d2e496e74333201000000076d5f76616c75650008000000000b
+          foldout: 1
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnGoalComplete
+      debug: 0
+      parameters:
+        keys: []
+        values: []
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnClearStage
+      debug: 0
+      parameters:
+        keys: []
+        values: []
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnTurnStarted
+      debug: 0
+      parameters:
+        keys: []
+        values: []
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnTurnEnd
+      debug: 0
+      parameters:
+        keys: []
+        values: []
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnSpellCastStarted
+      debug: 0
+      parameters:
+        keys: []
+        values: []
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnSpellCastEnd
+      debug: 0
+      parameters:
+        keys: []
+        values: []
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnMerchantApproached
+      debug: 0
+      parameters:
+        keys: []
+        values: []
+      foldout: 0
+      foldoutParameters: 1
+    - name: OnScoreUpdated
+      debug: 0
+      parameters:
+        keys:
+        - prevScore
+        - score
+        values:
+        - name: prevScore
+          type: 1
+          _defaultValue: 0001000000ffffffff010000000000000004010000000c53797374656d2e496e74333201000000076d5f76616c75650008000000000b
+          foldout: 1
+        - name: score
+          type: 1
+          _defaultValue: 0001000000ffffffff010000000000000004010000000c53797374656d2e496e74333201000000076d5f76616c75650008000000000b
+          foldout: 1
+      foldout: 1
+      foldoutParameters: 1
+    - name: OnMerchantDischarged
+      debug: 0
+      parameters:
+        keys: []
+        values: []
+      foldout: 0
+      foldoutParameters: 1

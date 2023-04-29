@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34404cb99b59bb543805a55e3c469d61, type: 3}
+  m_Name: yellow-car
+  m_EditorClassIdentifier: 
+  editorConfirmations: 1
+  animations:
+  - speedRatio: 1
+    loop: 1
+    frameToLoop: 0
+    frameDatas:
+    - sprite: {fileID: 21300000, guid: 03bc89c7a3d724db2813bde0b42b364d, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    name: down
+    selectedIndex: 0
+    newFramesTime: 0.05
+    setFramesTime: 0.1
+  - speedRatio: 1
+    loop: 1
+    frameToLoop: 0
+    frameDatas:
+    - sprite: {fileID: 21300000, guid: 2d78e1292b59949139789604075f7885, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    name: horizontal
+    selectedIndex: 0
+    newFramesTime: 0.05
+    setFramesTime: 0.1
+  - speedRatio: 1
+    loop: 1
+    frameToLoop: 0
+    frameDatas:
+    - sprite: {fileID: 21300000, guid: 0154b47e3bfad4f51bc1d7acc9228674, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    name: up
+    selectedIndex: 0
+    newFramesTime: 0.05
+    setFramesTime: 0.1
+  - speedRatio: 1
+    loop: 1
+    frameToLoop: 0
+    frameDatas:
+    - sprite: {fileID: 21300000, guid: d71ff2a6a30224d6398b64796b542542, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    name: damaged
+    selectedIndex: 0
+    newFramesTime: 0.05
+    setFramesTime: 0.1

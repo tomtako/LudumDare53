@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2bb04eb3d3094b43aeabd57880a89ff, type: 3}
+  m_Name: SoulCounter
+  m_EditorClassIdentifier: 
+  letterSprites:
+  - {fileID: 21300000, guid: d3532a8b6c10b412380371bf0d881c93, type: 3}
+  - {fileID: 21300002, guid: d3532a8b6c10b412380371bf0d881c93, type: 3}
+  - {fileID: 21300004, guid: d3532a8b6c10b412380371bf0d881c93, type: 3}
+  - {fileID: 21300006, guid: d3532a8b6c10b412380371bf0d881c93, type: 3}
+  - {fileID: 21300008, guid: d3532a8b6c10b412380371bf0d881c93, type: 3}
+  - {fileID: 21300010, guid: d3532a8b6c10b412380371bf0d881c93, type: 3}
+  - {fileID: 21300012, guid: d3532a8b6c10b412380371bf0d881c93, type: 3}
+  - {fileID: 21300014, guid: d3532a8b6c10b412380371bf0d881c93, type: 3}
+  - {fileID: 21300016, guid: d3532a8b6c10b412380371bf0d881c93, type: 3}
+  - {fileID: 21300018, guid: d3532a8b6c10b412380371bf0d881c93, type: 3}
+  - {fileID: 21300020, guid: d3532a8b6c10b412380371bf0d881c93, type: 3}
+  letterCode: '0123456789:'

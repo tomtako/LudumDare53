@@ -26,6 +26,12 @@ namespace DefaultNamespace
         private void Update()
         {
             m_currentGameTime -= Time.deltaTime;
+
+            if (m_currentGameTime < 0)
+            {
+                m_currentGameTime = 0;
+            }
+
             gameTimer.text = $"{(int)m_currentGameTime+1}";
 
             arrow.SetArrowPointer( player.transform.position, m_currentDeliveryPosition );

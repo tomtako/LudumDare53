@@ -6,10 +6,11 @@ namespace DefaultNamespace
     public class PlayerInput : MonoBehaviour
     {
         public SpriteAnimation animator;
-        public float angleThreshold = 22.5f;
+        public float bloodTrailTime = 3;
 
         private CarController m_controller;
         private Quaternion initialRotation;
+        private float m_hitPedestrianTimer;
 
         private void Awake()
         {
@@ -23,9 +24,13 @@ namespace DefaultNamespace
             input.x = Input.GetAxisRaw("Horizontal");
             input.y = Input.GetAxisRaw("Vertical");
             m_controller.SetInputVector(input);
-            //GetComponent<Rigidbody2D>().AddForce(input, ForceMode2D.Force);
 
             UpdateAnimations();
+
+            if (m_hitPedestrianTimer > 0)
+            {
+                m_hitPedestrianTimer -= Time.deltaTime;
+            }
         }
 
         private void LateUpdate()
@@ -63,6 +68,32 @@ namespace DefaultNamespace
             var halfAngle = angle > 180f ?  angle - 180f : angle;
             var animIndex = Mathf.RoundToInt(halfAngle / (180f / 11f) );
             animator.SetFrame("move", animIndex);
+        }
+
+        public bool DidHitPedestrian()
+        {
+            return m_hitPedestrianTimer > 0;
+        }
+
+        private void OnCollisionEnter2D(Collision2D col)
+        {
+            Debug.Log(col.gameObject.tag);
+
+            if (col.gameObject.CompareTag("Pedestrian"))
+            {
+                m_hitPedestrianTimer = bloodTrailTime;
+            }
+        }
+
+        private void OnTriggerEnter2D(Collider2D col)
+        {
+            if (col.CompareTag("Pedestrian"))
+            {
+                CameraFollower.Instance.Shake();
+                m_hitPedestrianTimer = bloodTrailTime;
+                var pedestrian = col.gameObject.GetComponent<PedestrianController>();
+                pedestrian.Hit();
+            }
         }
     }
 }

@@ -175,7 +175,7 @@ public class SpriteAnimation : MonoBehaviour
                 }
                 catch (Exception e)
                 {
-                   Debug.LogError($"{gameObject.name} is NOT WORKING!!!");
+                   Debug.LogError($"{gameObject.name} is NOT WORKING!!! {e}");
                 }
             }
 

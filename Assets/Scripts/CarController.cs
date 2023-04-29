@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace DefaultNamespace
 {
+    [RequireComponent(typeof(Rigidbody2D), typeof(BoxCollider2D))]
     public class CarController : MonoBehaviour
     {
         [Range(0,1)]
@@ -112,6 +113,11 @@ namespace DefaultNamespace
             }
 
             return false;
+        }
+
+        public bool IsMoving()
+        {
+            return m_rigidBody.velocity.sqrMagnitude > 0;
         }
 
         public void SetInputVector(Vector2 inputVector)

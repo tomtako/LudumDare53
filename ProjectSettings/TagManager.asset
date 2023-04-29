@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Pedestrian
+  - Car
   layers:
   - Default
   - TransparentFX
@@ -44,4 +45,7 @@ TagManager:
     locked: 0
   - name: Effects
     uniqueID: 1232166595
+    locked: 0
+  - name: UI
+    uniqueID: 637380425
     locked: 0

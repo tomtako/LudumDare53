@@ -7,6 +7,8 @@ namespace DefaultNamespace
     {
         public SpriteAnimation animator;
         public float bloodTrailTime = 3;
+        public float speedUpFromPedestrians = 2;
+        public float slowDownFromCars = 5f;
 
         private CarController m_controller;
         private Quaternion initialRotation;
@@ -93,6 +95,26 @@ namespace DefaultNamespace
                 m_hitPedestrianTimer = bloodTrailTime;
                 var pedestrian = col.gameObject.GetComponent<PedestrianController>();
                 pedestrian.Hit();
+
+                var direction = m_controller.RigidBody.velocity.normalized;
+                m_controller.RigidBody.AddForce(direction.normalized * speedUpFromPedestrians, ForceMode2D.Impulse);
+            }
+
+            if (col.CompareTag("Car"))
+            {
+                CameraFollower.Instance.Shake();
+                var car = col.gameObject.GetComponent<NpcInput>();
+
+                if (!car.Damaged())
+                {
+                    car.OnHit(m_controller);
+
+                    //m_controller.RigidBody.velocity = Vector2.zero;
+
+                    var direction = -m_controller.RigidBody.velocity.normalized;
+                    m_controller.RigidBody.AddForce(direction.normalized * slowDownFromCars, ForceMode2D.Impulse);
+                }
+
             }
         }
     }

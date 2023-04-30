@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34404cb99b59bb543805a55e3c469d61, type: 3}
+  m_Name: in-house-player
+  m_EditorClassIdentifier: 
+  editorConfirmations: 1
+  animations:
+  - speedRatio: 1
+    loop: 1
+    frameToLoop: 0
+    frameDatas:
+    - sprite: {fileID: -2701459933812708641, guid: 052dac75c5bb34c6c8bdc6fa34e2440e, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 8173049620127160648, guid: 052dac75c5bb34c6c8bdc6fa34e2440e, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 3902149706829106108, guid: 052dac75c5bb34c6c8bdc6fa34e2440e, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 6073929097372863555, guid: 052dac75c5bb34c6c8bdc6fa34e2440e, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    name: wind-up
+    selectedIndex: 0
+    newFramesTime: 0.05
+    setFramesTime: 0.1

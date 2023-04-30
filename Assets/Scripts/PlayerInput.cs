@@ -36,7 +36,7 @@ namespace DefaultNamespace
             input.y = Input.GetAxisRaw("Vertical");
 
             m_controller.SetInputVector(input);
-            m_controller.Brake(Input.GetButton("Fire1") || Input.GetKeyDown(KeyCode.Space));
+            m_controller.Brake(Input.GetButton("Fire1") || Input.GetKey(KeyCode.Space));
 
             UpdateAnimations();
 

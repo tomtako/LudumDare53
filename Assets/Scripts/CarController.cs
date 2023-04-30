@@ -40,16 +40,18 @@ namespace DefaultNamespace
             ApplyEngineForce();
             UpdateOrthogonalVelocity();
             ApplySteering();
+
+            Debug.Log(m_rigidBody.velocity.magnitude);
         }
 
         private void ApplyEngineForce()
         {
             m_velocityVsUp = Vector2.Dot(transform.up, m_rigidBody.velocity);
 
-            // if (m_velocityVsUp > maxSpeed && m_accelerationInput > 0)
-            // {
-            //     return;
-            // }
+            if (m_velocityVsUp > maxSpeed && m_accelerationInput > 0)
+            {
+                return;
+            }
             //
             // if (m_velocityVsUp > -maxBackupSpeed && m_accelerationInput < 0)
             // {

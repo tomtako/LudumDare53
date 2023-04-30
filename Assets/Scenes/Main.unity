@@ -15162,6 +15162,7 @@ MonoBehaviour:
   maxDrag: 3
   dragForceWhenNotPressingInput: 3
   lateralVelocityNeededToScreech: 1
+  brakeForce: 2
 --- !u!114 &381815070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30344,7 +30345,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.21875
+  orthographic size: 8.4375
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

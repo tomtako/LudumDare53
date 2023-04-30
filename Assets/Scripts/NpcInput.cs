@@ -170,7 +170,7 @@ namespace DefaultNamespace
         {
             m_damaged = true;
             boxCollider.enabled = false;
-            m_hitDirection = controller.RigidBody.velocity.normalized;
+            m_hitDirection = controller.rb.velocity.normalized;
             m_hitSpeed = tossMultiplier;
             m_jumpVelocity = jumpHeight;
             animator.Play("damaged");

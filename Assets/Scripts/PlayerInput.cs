@@ -1,5 +1,4 @@
-using System;
-using Sirenix.OdinInspector;
+
 using UnityEngine;
 
 namespace DefaultNamespace
@@ -27,14 +26,17 @@ namespace DefaultNamespace
         {
             if (GameManager.Instance.GetCurrentState() != GameManager.GameState.Gameplay)
             {
-                m_controller.RigidBody.velocity = Vector2.zero;
+                m_controller.rb.velocity = Vector2.zero;
                 return;
             }
 
-            Vector2 input = new Vector2(0, 0);
+            Vector2 input =Vector2.zero;
+
             input.x = Input.GetAxisRaw("Horizontal");
             input.y = Input.GetAxisRaw("Vertical");
+
             m_controller.SetInputVector(input);
+            m_controller.Brake(Input.GetButton("Fire1") || Input.GetKeyDown(KeyCode.Space));
 
             UpdateAnimations();
 
@@ -52,12 +54,14 @@ namespace DefaultNamespace
 
         private void UpdateAnimations()
         {
-            if (m_controller.RigidBody.velocity.sqrMagnitude <= 0)
+            if (m_controller.rb.velocity.sqrMagnitude <= 0)
             {
                 return;
             }
 
-            Vector2 direction = m_controller.RigidBody.velocity.normalized;
+            bool movingBackwards = Vector3.Angle(transform.up, m_controller.rb.velocity) > 90f;
+
+            Vector2 direction = m_controller.rb.velocity.normalized;
 
             if (direction.x > 0)
             {
@@ -90,10 +94,16 @@ namespace DefaultNamespace
                 animIndex = carFrames;
             }
 
-            animator.SetFrame("move", animIndex);
-            animator.renderer.flipX = direction.x < 0;
-
-            //Debug.Log($"Angle0 ={angle0} Angle ={angle} halfAngle={halfAngle}");
+            if (!movingBackwards)
+            {
+                animator.SetFrame("move", animIndex);
+                animator.renderer.flipX = direction.x < 0;
+            }
+            else
+            {
+                animator.SetFrame("move", carFrames - animIndex);
+                animator.renderer.flipX = direction.x > 0;
+            }
         }
 
         public bool DidHitPedestrian()
@@ -117,8 +127,8 @@ namespace DefaultNamespace
                 var pedestrian = col.gameObject.GetComponent<PedestrianController>();
                 pedestrian.Hit();
 
-                var direction = m_controller.RigidBody.velocity.normalized;
-                m_controller.RigidBody.AddForce(direction.normalized * speedUpFromPedestrians, ForceMode2D.Impulse);
+                var direction = m_controller.rb.velocity.normalized;
+                m_controller.rb.AddForce(direction.normalized * speedUpFromPedestrians, ForceMode2D.Impulse);
             }
 
             if (col.CompareTag("Car"))
@@ -134,8 +144,8 @@ namespace DefaultNamespace
 
                     //m_controller.RigidBody.velocity = Vector2.zero;
 
-                    var direction = -m_controller.RigidBody.velocity.normalized;
-                    m_controller.RigidBody.AddForce(direction.normalized * slowDownFromCars, ForceMode2D.Impulse);
+                    var direction = -m_controller.rb.velocity.normalized;
+                    m_controller.rb.AddForce(direction.normalized * slowDownFromCars, ForceMode2D.Impulse);
                 }
 
             }

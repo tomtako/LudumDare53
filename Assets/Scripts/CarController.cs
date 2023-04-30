@@ -16,18 +16,19 @@ namespace DefaultNamespace
         public float maxDrag = 3;
         public float dragForceWhenNotPressingInput = 3;
         public float lateralVelocityNeededToScreech = 1f;
-
+        public float brakeForce;
 
         private float m_accelerationInput;
         private float m_steeringInput;
 
         private float m_rotationAngle;
 
+        private bool m_isBreaking;
         private float m_velocityVsUp;
 
         private Rigidbody2D m_rigidBody;
 
-        public Rigidbody2D RigidBody => m_rigidBody;
+        public Rigidbody2D rb => m_rigidBody;
 
         private void Awake()
         {
@@ -72,6 +73,11 @@ namespace DefaultNamespace
 
             Vector2 force = transform.up * m_accelerationInput * acceleration;
 
+            if (m_isBreaking)
+            {
+                force *= brakeForce;
+            }
+
             m_rigidBody.AddForce( force, ForceMode2D.Force);
         }
 
@@ -101,7 +107,7 @@ namespace DefaultNamespace
             lateralVelocity = GetLateralVelocity();
             isBreaking = false;
 
-            if (m_accelerationInput < 0 && m_velocityVsUp > 0)
+            if (m_accelerationInput < 0 && m_velocityVsUp > 0 || m_isBreaking)
             {
                 isBreaking = true;
                 return true;
@@ -124,6 +130,28 @@ namespace DefaultNamespace
         {
             m_steeringInput = inputVector.x;
             m_accelerationInput = inputVector.y;
+        }
+
+        public void Brake(bool shouldBreak )
+        {
+            m_isBreaking = shouldBreak;
+
+            if (m_isBreaking)
+            {
+                if (IsMoving() && !IsMovingBackwards())
+                {
+                    m_accelerationInput = -1;
+                }
+                else
+                {
+                    m_accelerationInput = 0;
+                }
+            }
+        }
+
+        public bool IsMovingBackwards()
+        {
+            return Vector3.Angle(transform.up, rb.velocity) > 90f;
         }
     }
 }

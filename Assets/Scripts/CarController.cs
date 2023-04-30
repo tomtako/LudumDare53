@@ -37,6 +37,7 @@ namespace DefaultNamespace
 
         private void FixedUpdate()
         {
+
             ApplyEngineForce();
             UpdateOrthogonalVelocity();
             ApplySteering();

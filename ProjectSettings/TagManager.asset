@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Pedestrian
   - Car
+  - Goal
+  - GoalEnemy
+  - Wall
   layers:
   - Default
   - TransparentFX

@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.SocialPlatforms.GameCenter;
 using Random = UnityEngine.Random;
 
@@ -25,11 +26,11 @@ namespace DefaultNamespace
         public float moneyDisplayAddSpeed = 5;
         public float moneyGainedFromHittingAPedestrian = .5f;
         public float moneyGainedFromHittingACar = 1f;
-
+        public bool disableGameOvers;
 
         public GameObject titleUi;
         public GameObject gameplayUi;
-        public GameObject timesUpUi;
+        public TimesUpScreen timesUpUi;
         public GameObject newDeliveryUi;
         public GameObject servedUi;
         public GameObject gameOverUi;
@@ -63,30 +64,55 @@ namespace DefaultNamespace
             m_menus = new List<GameObject>();
             m_menus.Add(titleUi);
             m_menus.Add(gameplayUi);
+            m_menus.Add(timesUpUi.gameObject);
+
+            timesUpUi.OnContinue += OnTimesUpContinued;
 
             NewDelivery();
         }
 
+        private void OnTimesUpContinued()
+        {
+            if (m_currentGameState == GameState.TimesUp)
+            {
+                //todo: animate out
+                timesUpUi.SetActive(false);
+
+                SetGameState( GameState.Gameplay );
+            }
+        }
+
         private void Update()
         {
-
-            m_currentMoney = Mathf.MoveTowards(m_currentMoney, m_targetMoney, moneyDisplayAddSpeed * Time.deltaTime);
-            moneyLabel.text = m_currentMoney.ToString("C", System.Globalization.CultureInfo.GetCultureInfo("en-US"));
-
-            m_currentGameTime -= Time.deltaTime;
-
-            if (m_currentGameTime < 0)
+            if (m_currentGameState == GameState.Gameplay)
             {
-                m_currentGameTime = 0;
-            }
+                m_currentMoney =
+                    Mathf.MoveTowards(m_currentMoney, m_targetMoney, moneyDisplayAddSpeed * Time.deltaTime);
+                moneyLabel.text =
+                    m_currentMoney.ToString("C", System.Globalization.CultureInfo.GetCultureInfo("en-US"));
 
-            gameTimer.text = $"{(int)m_currentGameTime+1}";
+                m_currentGameTime -= Time.deltaTime;
 
-            arrow.SetArrowPointer( player.transform.position, m_currentDeliveryPosition );
+                if (m_currentGameTime < 0)
+                {
+                    m_currentGameTime = 0;
+                }
 
-            if (m_currentGameTime <= 0)
-            {
-                GameOver();
+                if (m_currentGameTime < 1)
+                {
+                    gameTimer.text = (m_currentGameTime * 1000f).ToString("F2") + " ms";
+                }
+                else
+                {
+                    gameTimer.text = $"{(int)m_currentGameTime + 1}";
+                }
+
+                arrow.SetArrowPointer(player.transform.position, m_currentDeliveryPosition);
+
+                if (m_currentGameTime <= 0)
+                {
+                    GameOver();
+                }
             }
         }
 
@@ -128,13 +154,31 @@ namespace DefaultNamespace
 
         public void SetGameState(GameState state)
         {
-            m_currentGameState = state;
+            if (m_currentGameState != state)
+            {
+                if (state == GameState.Gameplay)
+                {
+                    SceneManager.LoadScene("Main");
+                    return;
+                }
 
+                if (state == GameState.TimesUp)
+                {
+                    timesUpUi.SetActive(true);
+                }
+            }
+
+            m_currentGameState = state;
         }
 
         private void GameOver()
         {
+            gameTimer.text = "0";
 
+            if (!disableGameOvers)
+            {
+                SetGameState(GameState.TimesUp);
+            }
         }
     }
 }

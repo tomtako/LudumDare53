@@ -25,10 +25,13 @@ namespace DefaultNamespace
             switch (objectType)
             {
                 case ObjectType.Metal:
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/metalHit", gameObject.transform.position);
                     break;
                 case ObjectType.Glass:
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/glassHit", gameObject.transform.position);
                     break;
                 case ObjectType.Foliage:
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/foliageHit", gameObject.transform.position);
                     break;
             }
 

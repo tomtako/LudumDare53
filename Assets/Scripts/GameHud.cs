@@ -8,7 +8,8 @@ namespace DefaultNamespace
 {
     public class GameHud : MonoBehaviour
     {
-        private class TextQueueItem
+        [System.Serializable]
+        public class TextQueueItem
         {
             public int portraitIndex;
             public string text;
@@ -21,54 +22,47 @@ namespace DefaultNamespace
         public Vector2 targetOutAnchorPosition = new Vector2(248, 8);
 
         private float m_lingerTextTimer;
-        private List<TextQueueItem> m_textItems;
+        public List<TextQueueItem> m_textItems;
         private Tweener m_moveDialogueOutAnim;
 
         private void Start()
         {
-            m_textItems = new List<TextQueueItem>();
             m_lingerTextTimer = 0;
             dialogueContainer.anchoredPosition = targetOutAnchorPosition;
         }
 
-
         public void AddText(int portraitIndex, string text)
         {
-            m_textItems ??= new List<TextQueueItem>();
+            if (m_textItems == null)
+            {
+                m_textItems = new List<TextQueueItem>();
+            }
             m_textItems.Add( new TextQueueItem { portraitIndex = portraitIndex, text = text });
+
+            Debug.Log($"Added text! {text}");
         }
 
         private void Update()
         {
-            //Debug.Log("help??");
-
             if (m_moveDialogueOutAnim.IsActive())
             {
-                Debug.Log("is moving");
                 return;
             }
 
             if (m_textItems.Count > 0)
             {
-                Debug.Log($"doing? {m_lingerTextTimer}");
                 m_lingerTextTimer -= Time.deltaTime;
 
                 if (m_lingerTextTimer <= 0)
                 {
                     if (Vector2.Distance(targetOutAnchorPosition, dialogueContainer.anchoredPosition) > 1)
                     {
-                        Debug.Log("Started moving");
                         m_moveDialogueOutAnim = dialogueContainer.
                             DOAnchorPosX(targetOutAnchorPosition.x, dialogueMoveDuration).
                             SetEase(Ease.InBack);
 
-                        // dialogueContainer.anchoredPosition = Vector3.MoveTowards(dialogueContainer.anchoredPosition,
-                        //     targetAnchorPosition, dialogueMoveSpeed * Time.deltaTime);
-
                         return;
                     }
-
-                    Debug.Log("working??");
 
                     m_lingerTextTimer = lingerTextDelay;
 

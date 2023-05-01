@@ -26,6 +26,13 @@ namespace DefaultNamespace
         {
             if (GameManager.Instance.GetCurrentState() != GameManager.GameState.Gameplay)
             {
+                var state = GameManager.Instance.GetCurrentState();
+
+                if (state == GameManager.GameState.Title)
+                {
+                    animator.SetFrame("move", 12);
+                }
+
                 m_controller.rb.velocity = Vector2.zero;
                 return;
             }
@@ -160,6 +167,13 @@ namespace DefaultNamespace
                     house.OnBreak();
                     GameManager.Instance.OnGoalHit();
                 }
+            }
+
+            if (col.CompareTag("Breakable"))
+            {
+                CameraFollower.Instance.Shake();
+                var breakable = col.gameObject.GetComponent<BreakableObject>();
+                breakable.OnHit(m_controller);
             }
         }
     }

@@ -14,12 +14,16 @@ namespace DefaultNamespace
             public int portraitIndex;
             public string text;
         }
+
+        public CanvasGroup canvasGroup;
         public SpriteAnimation villainAnimator;
         public RectTransform dialogueContainer;
         public TextMeshProUGUI dialogue;
         public float lingerTextDelay = 3;
         public float dialogueMoveDuration = .5f;
         public Vector2 targetOutAnchorPosition = new Vector2(248, 8);
+        public GameObject servedStamp;
+        public GameObject escapedStamp;
 
         private float m_lingerTextTimer;
         public List<TextQueueItem> m_textItems;
@@ -38,8 +42,22 @@ namespace DefaultNamespace
                 m_textItems = new List<TextQueueItem>();
             }
             m_textItems.Add( new TextQueueItem { portraitIndex = portraitIndex, text = text });
+        }
 
-            Debug.Log($"Added text! {text}");
+        public void OnServed()
+        {
+            servedStamp.SetActive(true);
+            servedStamp.transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
+            servedStamp.transform.DOScale(1, 0.5f).SetEase(Ease.OutElastic);
+            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/served");
+        }
+
+        public void OnEscaped()
+        {
+            escapedStamp.SetActive(true);
+            escapedStamp.transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
+            escapedStamp.transform.DOScale(1, 0.5f).SetEase(Ease.OutElastic);
+            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/escaped");
         }
 
         private void Update()
@@ -64,6 +82,9 @@ namespace DefaultNamespace
                         return;
                     }
 
+                    escapedStamp.SetActive(false);
+                    servedStamp.SetActive(false);
+
                     m_lingerTextTimer = lingerTextDelay;
 
                     var item = m_textItems[0];
@@ -82,6 +103,9 @@ namespace DefaultNamespace
                     dialogue.text = item.text;
 
                     dialogueContainer.DOAnchorPosX(0, dialogueMoveDuration).SetEase(Ease.OutBack);
+
+                    //audiofadein
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/uiWhoosh");
                 }
             }
         }

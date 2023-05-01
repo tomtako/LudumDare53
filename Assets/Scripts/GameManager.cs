@@ -21,16 +21,18 @@ namespace DefaultNamespace
         }
 
         public static GameManager Instance;
+        public string gameScene = "Testing";
         public int maxGameTime = 100;
         public float minimumDistanceBetweenDeliveries;
         public float moneyDisplayAddSpeed = 5;
         public float moneyGainedFromHittingAPedestrian = .5f;
         public float moneyGainedFromHittingACar = 1f;
         public float deliveryTimePerMeter = 1;
+        public float cashForServingPerTimeLeft = 10;
         public bool disableGameOvers;
 
         public GameObject houses;
-        public GameObject titleUi;
+        public CanvasGroup titleUi;
         public GameHud gameHud;
         public TimesUpScreen timesUpUi;
         public GameObject newDeliveryUi;
@@ -38,6 +40,7 @@ namespace DefaultNamespace
         public GameObject gameOverUi;
 
         public TextMeshProUGUI gameTimer;
+        public TextMeshProUGUI deliveryTimer;
         public PlayerInput player;
         public DeliveryArrow arrow;
         public TextMeshProUGUI moneyLabel;
@@ -47,6 +50,7 @@ namespace DefaultNamespace
 
         private float m_currentGameTime;
         private int m_currentDeliveryHouse;
+        private float m_currentDeliveryTime;
         //private Vector2 m_currentDeliveryPosition;
 
         private float m_targetMoney;
@@ -72,10 +76,10 @@ namespace DefaultNamespace
             Instance = this;
 
             m_currentGameTime = maxGameTime;
-            m_currentGameState = GameState.Gameplay;
+            m_currentGameState = GameState.Title;
 
             m_menus = new List<GameObject>();
-            m_menus.Add(titleUi);
+            m_menus.Add(titleUi.gameObject);
 
             if (gameHud) m_menus.Add(gameHud.gameObject);
             if (timesUpUi) m_menus.Add(timesUpUi.gameObject);
@@ -97,8 +101,6 @@ namespace DefaultNamespace
             }
 
             m_houses.Shuffle();
-            NewDelivery();
-
             bgMusic = FMODUnity.RuntimeManager.CreateInstance("event:/Music/gameplayMusic");
         }
 
@@ -106,17 +108,36 @@ namespace DefaultNamespace
         {
             if (m_currentGameState == GameState.TimesUp)
             {
-                //todo: animate out
-                timesUpUi.SetActive(false);
-
-                SetGameState( GameState.Gameplay );
+                SceneManager.LoadScene(gameScene);
             }
         }
 
         private void Update()
         {
+            if (m_currentGameState != GameState.Title)
+            {
+                titleUi.alpha = Mathf.MoveTowards(titleUi.alpha, 0, Time.deltaTime);
+            }
+
+            if (m_currentGameState == GameState.Title)
+            {
+                gameHud.canvasGroup.alpha = Mathf.MoveTowards(gameHud.canvasGroup.alpha, 0, Time.deltaTime);
+
+                if (Input.GetAxisRaw("Horizontal") > 0)
+                {
+                    SetGameState( GameState.Gameplay );
+                }
+
+                if (Input.GetAxisRaw("Vertical") > 0)
+                {
+                    SetGameState( GameState.Gameplay );
+                }
+            }
+
             if (m_currentGameState == GameState.Gameplay)
             {
+                gameHud.canvasGroup.alpha = Mathf.MoveTowards(gameHud.canvasGroup.alpha, 1, Time.deltaTime);
+
                 if (bgMusicSwitch)
                 {
                     bgMusic.start();
@@ -128,6 +149,13 @@ namespace DefaultNamespace
                 moneyLabel.text =
                     m_currentMoney.ToString("C", System.Globalization.CultureInfo.GetCultureInfo("en-US"));
 
+                m_currentDeliveryTime -= Time.deltaTime;
+
+                if (m_currentDeliveryTime < 0)
+                {
+                    m_currentDeliveryTime = 0;
+                }
+
                 m_currentGameTime -= Time.deltaTime;
 
                 if (m_currentGameTime < 0)
@@ -135,14 +163,8 @@ namespace DefaultNamespace
                     m_currentGameTime = 0;
                 }
 
-                if (m_currentGameTime < 1)
-                {
-                    gameTimer.text = (m_currentGameTime * 1000f).ToString("F2") + " ms";
-                }
-                else
-                {
-                    gameTimer.text = $"{(int)m_currentGameTime + 1}";
-                }
+                gameTimer.text = $"{(int)m_currentGameTime + 1}";
+                deliveryTimer.text = $"{(int)m_currentDeliveryTime + 1}";
 
                 if (houses != null)
                 {
@@ -156,6 +178,16 @@ namespace DefaultNamespace
                     bgMusic.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
                     bgMusicSwitch = true;
                     FMODUnity.RuntimeManager.PlayOneShot("event:/Music/gameOver");
+                }
+
+                if (m_currentDeliveryTime <= 0)
+                {
+                    if (gameHud)
+                    {
+                        gameHud.OnEscaped();
+                    }
+
+                    NewDelivery();
                 }
             }
         }
@@ -201,7 +233,13 @@ namespace DefaultNamespace
             if (gameHud)
             {
                 gameHud.AddText( -1, "You have a new criminal to serve!");
-                gameHud.AddText(Random.Range(0,3), crimes[Random.Range(0,crimes.Count)]);
+
+                var lastVillain = m_currentVillain;
+                while (m_currentVillain == lastVillain)
+                {
+                    m_currentVillain = Random.Range(0, 3);
+                }
+                gameHud.AddText(m_currentVillain, crimes[Random.Range(0,crimes.Count)]);
             }
 
             if (m_houses.Count <= 1)
@@ -220,6 +258,8 @@ namespace DefaultNamespace
                 lastHouse = m_houses[m_currentDeliveryHouse];
             }
 
+            m_currentDeliveryTime =
+                deliveryTimePerMeter * Vector2.Distance(lastHouse.position, player.transform.position);
             lastHouse.GetComponent<GoalHouse>().SetAsGoalHouse();
         }
 
@@ -251,8 +291,7 @@ namespace DefaultNamespace
             {
                 if (state == GameState.Gameplay)
                 {
-                    //SceneManager.LoadScene("Main");
-                    return;
+                    NewDelivery();
                 }
 
                 if (state == GameState.TimesUp)
@@ -266,6 +305,15 @@ namespace DefaultNamespace
 
         public void OnGoalHit()
         {
+            if (gameHud)
+            {
+                gameHud.OnServed();
+            }
+
+            m_currentGameTime += m_currentDeliveryTime;
+
+            AddMoney( cashForServingPerTimeLeft * m_currentDeliveryTime);
+
             NewDelivery();
         }
 

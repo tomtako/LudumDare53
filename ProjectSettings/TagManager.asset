@@ -9,6 +9,7 @@ TagManager:
   - Goal
   - GoalEnemy
   - Wall
+  - Breakable
   layers:
   - Default
   - TransparentFX

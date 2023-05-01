@@ -7,7 +7,7 @@ namespace DefaultNamespace
     {
         public float gravity = -10;
         public float initialVelocity = 10;
-        public float initialMomentum;
+        public float initialMomentum=20;
         public float drag = 2;
         public float initialHeight = 0.25f;
         public SpriteAnimation animator;
@@ -18,6 +18,7 @@ namespace DefaultNamespace
 
         public void SetDirection(Vector2 direction)
         {
+            animator.SetFrame("anim", Random.Range(0, animator.GetFrameCount()));
             m_direction = direction;
             m_velocity = initialVelocity;
             m_momentum = initialMomentum;

@@ -93,6 +93,11 @@ public class SpriteAnimation : MonoBehaviour
     {
         get
         {
+            if (string.IsNullOrEmpty(CurrentAnimationName) && animationAsset.animations.Count > 0)
+            {
+                return animationAsset.animations[0].frameDatas.Count;
+            }
+
             if (animationsByName.ContainsKey(CurrentAnimationName))
             {
                 return animationsByName[CurrentAnimationName].frameDatas.Count;

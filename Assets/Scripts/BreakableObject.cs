@@ -14,6 +14,8 @@ namespace DefaultNamespace
 
         public ObjectType objectType;
         public int particlesSpawnedWhenDestroyed = 10;
+        public float width = 0;
+        public float height = 0;
         public SpriteRenderer spriteRenderer;
         public List<Particle> particlePrefabs;
 
@@ -34,8 +36,10 @@ namespace DefaultNamespace
             {
                 var direction = Random.insideUnitCircle;
                 var randomOffset = Random.Range(0.1f, 0.3f);
+                var positionOffset = ((Vector3)direction * randomOffset);
+                positionOffset += new Vector3(Random.Range(-width, width), Random.Range(-height, height));
                 var particle = Instantiate(particlePrefabs[Random.Range(0, particlePrefabs.Count)],
-                    transform.position + (Vector3)direction, Quaternion.identity);
+                    transform.position + positionOffset, Quaternion.identity);
                 particle.SetDirection(direction);
             }
 

@@ -26,6 +26,13 @@ namespace DefaultNamespace
         {
             if (GameManager.Instance.GetCurrentState() != GameManager.GameState.Gameplay)
             {
+                var state = GameManager.Instance.GetCurrentState();
+
+                if (state == GameManager.GameState.Title)
+                {
+                    animator.SetFrame("move", 12);
+                }
+
                 m_controller.rb.velocity = Vector2.zero;
                 return;
             }

@@ -25,6 +25,9 @@ namespace DefaultNamespace
 
         private void Awake()
         {
+            preloadedCardsMinAmount = 1;
+            preloadedCardsMaxAmount = 4;
+
             m_nodes = GetComponentsInChildren<TrafficNode>().ToList();
 
             for (var i = 0; i < m_nodes.Count; i++)

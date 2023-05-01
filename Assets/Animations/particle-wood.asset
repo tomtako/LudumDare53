@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34404cb99b59bb543805a55e3c469d61, type: 3}
+  m_Name: particle-wood
+  m_EditorClassIdentifier: 
+  editorConfirmations: 1
+  animations:
+  - speedRatio: 1
+    loop: 1
+    frameToLoop: 0
+    frameDatas:
+    - sprite: {fileID: 6444594589196680494, guid: db9215bbb66b14aa8be42acf97cd8a8f, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 334345680563346811, guid: db9215bbb66b14aa8be42acf97cd8a8f, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 5480907103697342752, guid: db9215bbb66b14aa8be42acf97cd8a8f, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    name: anim
+    selectedIndex: 0
+    newFramesTime: 0.05
+    setFramesTime: 0.1

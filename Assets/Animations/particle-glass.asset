@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34404cb99b59bb543805a55e3c469d61, type: 3}
+  m_Name: particle-glass
+  m_EditorClassIdentifier: 
+  editorConfirmations: 1
+  animations:
+  - speedRatio: 1
+    loop: 1
+    frameToLoop: 0
+    frameDatas:
+    - sprite: {fileID: -5654348716816502087, guid: 8d67c9287bafb418eb75d94a0d26d776, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 1749162778796218394, guid: 8d67c9287bafb418eb75d94a0d26d776, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 3376594759053583961, guid: 8d67c9287bafb418eb75d94a0d26d776, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: -6187368619854940718, guid: 8d67c9287bafb418eb75d94a0d26d776, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: -1009681845172866448, guid: 8d67c9287bafb418eb75d94a0d26d776, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 1501273457233402685, guid: 8d67c9287bafb418eb75d94a0d26d776, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    name: anim
+    selectedIndex: 0
+    newFramesTime: 0.05
+    setFramesTime: 0.1

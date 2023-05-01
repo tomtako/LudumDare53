@@ -168,6 +168,13 @@ namespace DefaultNamespace
                     GameManager.Instance.OnGoalHit();
                 }
             }
+
+            if (col.CompareTag("Breakable"))
+            {
+                CameraFollower.Instance.Shake();
+                var breakable = col.gameObject.GetComponent<BreakableObject>();
+                breakable.OnHit(m_controller);
+            }
         }
     }
 }

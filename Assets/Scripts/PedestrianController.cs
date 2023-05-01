@@ -22,6 +22,8 @@ namespace DefaultNamespace
             m_collider.enabled=false;
             m_renderer.enabled = false;
 
+            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/hitBlood");
+
             for (var i = 0; i < m_splats.Length; i++)
             {
                 m_splats[i].Play(true);

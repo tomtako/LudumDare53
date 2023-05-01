@@ -52,7 +52,7 @@ namespace DefaultNamespace
 
         private List<GameObject> m_menus;
 
-        private GameState m_currentGameState;
+        public GameState m_currentGameState;
 
         private void Awake()
         {
@@ -158,7 +158,7 @@ namespace DefaultNamespace
             {
                 if (state == GameState.Gameplay)
                 {
-                    SceneManager.LoadScene("Main");
+                    //SceneManager.LoadScene("Main");
                     return;
                 }
 

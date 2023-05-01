@@ -55,8 +55,14 @@ TagManager:
   - name: Player
     uniqueID: 4095131683
     locked: 0
+  - name: Shortcuts
+    uniqueID: 818231567
+    locked: 0
   - name: Boundaries
     uniqueID: 4102896181
+    locked: 0
+  - name: Props
+    uniqueID: 1871610503
     locked: 0
   - name: Overpass
     uniqueID: 2142846061

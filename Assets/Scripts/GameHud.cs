@@ -49,6 +49,7 @@ namespace DefaultNamespace
             servedStamp.SetActive(true);
             servedStamp.transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
             servedStamp.transform.DOScale(1, 0.5f).SetEase(Ease.OutElastic);
+            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/served");
         }
 
         public void OnEscaped()
@@ -101,6 +102,9 @@ namespace DefaultNamespace
                     dialogue.text = item.text;
 
                     dialogueContainer.DOAnchorPosX(0, dialogueMoveDuration).SetEase(Ease.OutBack);
+
+                    //audiofadein
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/uiWhoosh");
                 }
             }
         }

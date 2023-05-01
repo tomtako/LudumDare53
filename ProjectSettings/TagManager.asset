@@ -17,7 +17,7 @@ TagManager:
   - Water
   - UI
   - Buildings
-  - 
+  - Player
   - 
   - 
   - 
@@ -66,4 +66,7 @@ TagManager:
     locked: 0
   - name: Overpass
     uniqueID: 2142846061
+    locked: 0
+  - name: Overlay
+    uniqueID: 1465673887
     locked: 0

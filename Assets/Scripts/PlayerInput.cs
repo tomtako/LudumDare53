@@ -149,6 +149,18 @@ namespace DefaultNamespace
                 }
 
             }
+
+            if (col.CompareTag("Goal"))
+            {
+                CameraFollower.Instance.Shake();
+                var house = col.gameObject.GetComponentInParent<GoalHouse>();
+
+                if (house.IsGoalHouse())
+                {
+                    house.OnBreak();
+                    GameManager.Instance.OnGoalHit();
+                }
+            }
         }
     }
 }

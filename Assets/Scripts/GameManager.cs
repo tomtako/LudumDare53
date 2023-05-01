@@ -26,8 +26,10 @@ namespace DefaultNamespace
         public float moneyDisplayAddSpeed = 5;
         public float moneyGainedFromHittingAPedestrian = .5f;
         public float moneyGainedFromHittingACar = 1f;
+        public float deliveryTimePerMeter = 1;
         public bool disableGameOvers;
 
+        public GameObject houses;
         public GameObject titleUi;
         public GameHud gameHud;
         public TimesUpScreen timesUpUi;
@@ -44,7 +46,8 @@ namespace DefaultNamespace
         private List<string> m_currentTextQueues;
 
         private float m_currentGameTime;
-        private Vector2 m_currentDeliveryPosition;
+        private int m_currentDeliveryHouse;
+        //private Vector2 m_currentDeliveryPosition;
 
         private float m_targetMoney;
         private float m_currentMoney;
@@ -54,6 +57,7 @@ namespace DefaultNamespace
         private int m_offendersServed;
 
         private List<GameObject> m_menus;
+        private List<Transform> m_houses;
 
         public GameState m_currentGameState;
 
@@ -72,12 +76,11 @@ namespace DefaultNamespace
 
             m_menus = new List<GameObject>();
             m_menus.Add(titleUi);
+
             if (gameHud) m_menus.Add(gameHud.gameObject);
-            m_menus.Add(timesUpUi.gameObject);
+            if (timesUpUi) m_menus.Add(timesUpUi.gameObject);
 
             timesUpUi.OnContinue += OnTimesUpContinued;
-
-            NewDelivery();
 
             ambientAudio = FMODUnity.RuntimeManager.CreateInstance("event:/Ambient/ambient");
             ambientAudio.start();
@@ -86,6 +89,16 @@ namespace DefaultNamespace
 
         private void Start()
         {
+            m_houses = new List<Transform>();
+
+            for (var i = 0; i < houses.transform.childCount; i++)
+            {
+                m_houses.Add(houses.transform.GetChild(i));
+            }
+
+            m_houses.Shuffle();
+            NewDelivery();
+
             bgMusic = FMODUnity.RuntimeManager.CreateInstance("event:/Music/gameplayMusic");
         }
 
@@ -131,7 +144,11 @@ namespace DefaultNamespace
                     gameTimer.text = $"{(int)m_currentGameTime + 1}";
                 }
 
-                arrow.SetArrowPointer(player.transform.position, m_currentDeliveryPosition);
+                if (houses != null)
+                {
+                    var house = m_houses[m_currentDeliveryHouse];
+                    arrow.SetArrowPointer(player.transform.position, house.position);
+                }
 
                 if (m_currentGameTime <= 0)
                 {
@@ -143,24 +160,67 @@ namespace DefaultNamespace
             }
         }
 
+        private List<string> crimes = new List<string>
+        {
+            "Public urination",
+            "Walking your pet scorpion",
+            "Plant theft",
+            "Selling bath salts to minors",
+            "Costco sample hoarding",
+            "Asked to try too many ice cream samples",
+            "Bird watching after curfew",
+            "Eating popcorn too loud in the movie theater",
+            "Farting at dinner",
+            "Farting in a public place",
+            "Unsolicited door knob licking",
+            "Putting trash in the recycle and recyle into the trash",
+            "Smuggling candy into a movie theater",
+            "Sexual relations with a ladybug",
+            "Attempted murder of a scam caller",
+            "J-walking in a circular motion",
+            "Stealing someone's thunder",
+            "Eating someones leftovers",
+            "Engaging in an impromptu game of hopscotch",
+            "Failing to prove you're not actually a robot",
+            "Wearing crocks with socks",
+            "Smuggling mints from restaurants",
+            "Escaping from custody of the hall monitor",
+            "Indecent exposure of the forehead",
+            "Driving under the influence of asbestos",
+            "Attempted butterfly stalking",
+            "Aggravated lizard kidnapping",
+            "Mosquito hit and run",
+            "Unlawfully carrying a cucumber",
+            "Burglary of dog turds",
+            "Throwing bananas at cars",
+            "Skateboarding in traffic",
+        };
+
         private void NewDelivery()
         {
             if (gameHud)
             {
                 gameHud.AddText( -1, "You have a new criminal to serve!");
-                gameHud.AddText(Random.Range(0,3), "Failing to prove you're not actually a robot");
+                gameHud.AddText(Random.Range(0,3), crimes[Random.Range(0,crimes.Count)]);
             }
 
-            m_currentDeliveryPosition = player.transform.position;
+            if (m_houses.Count <= 1)
+            {
+                return;
+            }
 
-            while (Vector2.Distance(m_currentDeliveryPosition, player.transform.position) <
-                   minimumDistanceBetweenDeliveries)
+            var lastHouse = m_houses[m_currentDeliveryHouse];
+
+            while (Vector2.Distance(lastHouse.position, player.transform.position) < minimumDistanceBetweenDeliveries)
             {
                 var x = Random.Range(-256, 256);
                 var y = Random.Range(-256, 256);
 
-                m_currentDeliveryPosition = new Vector2(x, y);
+                m_currentDeliveryHouse = Random.Range(0, m_houses.Count);
+                lastHouse = m_houses[m_currentDeliveryHouse];
             }
+
+            lastHouse.GetComponent<GoalHouse>().SetAsGoalHouse();
         }
 
         public void AddMoney(float money)
@@ -202,6 +262,11 @@ namespace DefaultNamespace
             }
 
             m_currentGameState = state;
+        }
+
+        public void OnGoalHit()
+        {
+            NewDelivery();
         }
 
         private void GameOver()

@@ -37,8 +37,6 @@ namespace DefaultNamespace
         {
             var carsToPreloadWith = Random.Range(preloadedCardsMinAmount, preloadedCardsMaxAmount);
 
-            Debug.Log(m_nodes.Count);
-
             for (var i = 0; i < carsToPreloadWith; i++)
             {
                 var randomIndex = Random.Range(1, m_nodes.Count - 1);

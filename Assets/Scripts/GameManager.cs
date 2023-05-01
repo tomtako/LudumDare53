@@ -52,7 +52,12 @@ namespace DefaultNamespace
 
         private List<GameObject> m_menus;
 
-        private GameState m_currentGameState;
+        public GameState m_currentGameState;
+
+        //audio stuff
+
+        private FMOD.Studio.EventInstance bgMusic;
+        private bool bgMusicSwitch = true;
 
         private void Awake()
         {
@@ -69,6 +74,12 @@ namespace DefaultNamespace
             timesUpUi.OnContinue += OnTimesUpContinued;
 
             NewDelivery();
+
+        }
+
+        private void Start()
+        {
+            bgMusic = FMODUnity.RuntimeManager.CreateInstance("event:/Music/gameplayMusic");
         }
 
         private void OnTimesUpContinued()
@@ -86,6 +97,12 @@ namespace DefaultNamespace
         {
             if (m_currentGameState == GameState.Gameplay)
             {
+                if (bgMusicSwitch)
+                {
+                    bgMusic.start();
+                    bgMusicSwitch = false;
+                }
+
                 m_currentMoney =
                     Mathf.MoveTowards(m_currentMoney, m_targetMoney, moneyDisplayAddSpeed * Time.deltaTime);
                 moneyLabel.text =
@@ -112,6 +129,9 @@ namespace DefaultNamespace
                 if (m_currentGameTime <= 0)
                 {
                     GameOver();
+                    bgMusic.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+                    bgMusicSwitch = true;
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/Music/gameOver");
                 }
             }
         }
@@ -158,7 +178,7 @@ namespace DefaultNamespace
             {
                 if (state == GameState.Gameplay)
                 {
-                    SceneManager.LoadScene("Main");
+                    //SceneManager.LoadScene("Main");
                     return;
                 }
 

@@ -2,6 +2,7 @@ using System;
 using KennethDevelops.ProLibrary.DataStructures.Pool;
 using KennethDevelops.ProLibrary.Managers;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace DefaultNamespace
 {
@@ -31,11 +32,14 @@ namespace DefaultNamespace
         private Vector2 m_hitDirection;
         private float m_hitSpeed;
 
-        public void SetSystem(TrafficSystem system)
+        public void SetSystem(TrafficSystem system, int currentNodeIndex = 1)
         {
             m_system = system;
-            m_currentNodeIndex = 1;
+            m_currentNodeIndex = currentNodeIndex;
             m_currentNode = m_system.GetNode(m_currentNodeIndex);
+
+            moveSpeed = Random.Range(3, 5);
+            distanceToCheckForCars = Random.Range(1.5f, 3f);
 
             if (m_system.direction == TrafficSystem.RoadDirection.Left)
             {

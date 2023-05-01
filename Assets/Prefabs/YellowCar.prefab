@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5929468526272618719}
   - component: {fileID: 3148956073279965996}
   - component: {fileID: 1446145570613206166}
+  - component: {fileID: 2536236124986233960}
   m_Layer: 0
   m_Name: YellowCar
   m_TagString: Car
@@ -80,6 +81,37 @@ MonoBehaviour:
   tossMultiplier: 4
   gravity: -20
   damageShadow: {fileID: 4872970257728301427}
+--- !u!114 &2536236124986233960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3251973569402662181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1247063341
+      Data2: 1342067236
+      Data3: 1497169844
+      Data4: -1758712733
+    Path: event:/SFX/carOrange
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 100
 --- !u!1 &4872970257728301427
 GameObject:
   m_ObjectHideFlags: 0

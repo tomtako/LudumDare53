@@ -29,7 +29,7 @@ namespace DefaultNamespace
         public bool disableGameOvers;
 
         public GameObject titleUi;
-        public GameObject gameplayUi;
+        public GameHud gameHud;
         public TimesUpScreen timesUpUi;
         public GameObject newDeliveryUi;
         public GameObject servedUi;
@@ -39,6 +39,9 @@ namespace DefaultNamespace
         public PlayerInput player;
         public DeliveryArrow arrow;
         public TextMeshProUGUI moneyLabel;
+
+        private int m_currentVillain;
+        private List<string> m_currentTextQueues;
 
         private float m_currentGameTime;
         private Vector2 m_currentDeliveryPosition;
@@ -58,6 +61,7 @@ namespace DefaultNamespace
 
         private FMOD.Studio.EventInstance bgMusic;
         private bool bgMusicSwitch = true;
+        private FMOD.Studio.EventInstance ambientAudio;
 
         private void Awake()
         {
@@ -68,12 +72,15 @@ namespace DefaultNamespace
 
             m_menus = new List<GameObject>();
             m_menus.Add(titleUi);
-            m_menus.Add(gameplayUi);
+            if (gameHud) m_menus.Add(gameHud.gameObject);
             m_menus.Add(timesUpUi.gameObject);
 
             timesUpUi.OnContinue += OnTimesUpContinued;
 
             NewDelivery();
+
+            ambientAudio = FMODUnity.RuntimeManager.CreateInstance("event:/Ambient/ambient");
+            ambientAudio.start();
 
         }
 
@@ -138,6 +145,12 @@ namespace DefaultNamespace
 
         private void NewDelivery()
         {
+            if (gameHud)
+            {
+                gameHud.AddText( -1, "You have a new criminal to serve!");
+                gameHud.AddText(Random.Range(0,3), "Failing to prove you're not actually a robot");
+            }
+
             m_currentDeliveryPosition = player.transform.position;
 
             while (Vector2.Distance(m_currentDeliveryPosition, player.transform.position) <

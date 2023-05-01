@@ -1,9 +1,10 @@
-using System;
+
 using System.Collections.Generic;
 using Sirenix.OdinInspector;
 using Sirenix.Utilities;
 using Unity.Mathematics;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace DefaultNamespace
 {
@@ -18,12 +19,12 @@ namespace DefaultNamespace
         }
 
         public NodeType nodeType;
-        [ShowIf("@this.nodeType == NodeType.Spawn")]
-        public float spawnDelay = 8;
 
         private TrafficSystem m_system;
         private bool m_isFlowing;
         private float m_spawnTimer;
+        private float m_minSpawnDelay = 6;
+        private float m_maxSpawnDelay = 12;
 
         private void Awake()
         {
@@ -54,7 +55,7 @@ namespace DefaultNamespace
                 if (m_spawnTimer <= 0)
                 {
                     SpawnNewCar();
-                    m_spawnTimer = spawnDelay;
+                    m_spawnTimer = Random.Range(m_minSpawnDelay,m_maxSpawnDelay);
                 }
             }
         }

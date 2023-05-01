@@ -644,6 +644,624 @@ TextureImporter:
   - first:
       213: 4256261747420647563
     second: prop_tiles_213
+  - first:
+      213: 4893236456617438939
+    second: prop_tiles_214
+  - first:
+      213: -5424676528737712629
+    second: prop_tiles_215
+  - first:
+      213: 1946479948685681912
+    second: prop_tiles_216
+  - first:
+      213: -4584905238278099040
+    second: prop_tiles_217
+  - first:
+      213: -704630624043575393
+    second: prop_tiles_218
+  - first:
+      213: -3049286763417626098
+    second: prop_tiles_219
+  - first:
+      213: -8949938709326040358
+    second: prop_tiles_220
+  - first:
+      213: 1928617335778673765
+    second: prop_tiles_221
+  - first:
+      213: -6431892629975896590
+    second: prop_tiles_222
+  - first:
+      213: 4717373811303079442
+    second: prop_tiles_223
+  - first:
+      213: 2938672403269182283
+    second: prop_tiles_224
+  - first:
+      213: -6232023895985894470
+    second: prop_tiles_225
+  - first:
+      213: -9078865871502806035
+    second: prop_tiles_226
+  - first:
+      213: 7705297425492174849
+    second: prop_tiles_227
+  - first:
+      213: -8493309480203446671
+    second: prop_tiles_228
+  - first:
+      213: 1068652695093884660
+    second: prop_tiles_229
+  - first:
+      213: 6517437808080512332
+    second: prop_tiles_230
+  - first:
+      213: -8282956351593242327
+    second: prop_tiles_231
+  - first:
+      213: 2036845068452638287
+    second: prop_tiles_232
+  - first:
+      213: 4819032519558796048
+    second: prop_tiles_233
+  - first:
+      213: -8959115041621524274
+    second: prop_tiles_234
+  - first:
+      213: 6771531240071055301
+    second: prop_tiles_235
+  - first:
+      213: 8120634525654897618
+    second: prop_tiles_236
+  - first:
+      213: -7110935082441650142
+    second: prop_tiles_237
+  - first:
+      213: -5038605109676076578
+    second: prop_tiles_238
+  - first:
+      213: -8747944874443499214
+    second: prop_tiles_239
+  - first:
+      213: -7784301054137629974
+    second: prop_tiles_240
+  - first:
+      213: -3929476415293961578
+    second: prop_tiles_241
+  - first:
+      213: -5250021283130704162
+    second: prop_tiles_242
+  - first:
+      213: 438910803628960772
+    second: prop_tiles_243
+  - first:
+      213: -2760652137955917346
+    second: prop_tiles_244
+  - first:
+      213: -2175912239772546181
+    second: prop_tiles_245
+  - first:
+      213: 4796286555575779560
+    second: prop_tiles_246
+  - first:
+      213: 8018765394330002932
+    second: prop_tiles_247
+  - first:
+      213: -6784203111617263357
+    second: prop_tiles_248
+  - first:
+      213: -30942784588471416
+    second: prop_tiles_249
+  - first:
+      213: -224256939877809726
+    second: prop_tiles_250
+  - first:
+      213: -3487873365779602543
+    second: prop_tiles_251
+  - first:
+      213: -3378389949785053986
+    second: prop_tiles_252
+  - first:
+      213: 8532712732510324748
+    second: prop_tiles_253
+  - first:
+      213: -4509002352108542393
+    second: prop_tiles_254
+  - first:
+      213: 1596259287866356439
+    second: prop_tiles_255
+  - first:
+      213: -5803518403710437086
+    second: prop_tiles_256
+  - first:
+      213: 8757099978659248847
+    second: prop_tiles_257
+  - first:
+      213: -2615368441546804428
+    second: prop_tiles_258
+  - first:
+      213: 799647712550802679
+    second: prop_tiles_259
+  - first:
+      213: 4339906354167107615
+    second: prop_tiles_260
+  - first:
+      213: 8042503075766893587
+    second: prop_tiles_261
+  - first:
+      213: -6510878811720323154
+    second: prop_tiles_262
+  - first:
+      213: 5102503791968129205
+    second: prop_tiles_263
+  - first:
+      213: 8947115731229714172
+    second: prop_tiles_264
+  - first:
+      213: -7859735491999738544
+    second: prop_tiles_265
+  - first:
+      213: 6775303031288830885
+    second: prop_tiles_266
+  - first:
+      213: 551533886007518442
+    second: prop_tiles_267
+  - first:
+      213: -2522483419726226694
+    second: prop_tiles_268
+  - first:
+      213: -24373992172076110
+    second: prop_tiles_269
+  - first:
+      213: -3612946922400871021
+    second: prop_tiles_270
+  - first:
+      213: 7372780083616048797
+    second: prop_tiles_271
+  - first:
+      213: 5447360052668472750
+    second: prop_tiles_272
+  - first:
+      213: -8871593731376305782
+    second: prop_tiles_273
+  - first:
+      213: -5558265841623700825
+    second: prop_tiles_274
+  - first:
+      213: -1902802075399490628
+    second: prop_tiles_275
+  - first:
+      213: 4243079659007025058
+    second: prop_tiles_276
+  - first:
+      213: 3108580241435933993
+    second: prop_tiles_277
+  - first:
+      213: 8004695430767816929
+    second: prop_tiles_278
+  - first:
+      213: -2938430455351827425
+    second: prop_tiles_279
+  - first:
+      213: 8478598720956227601
+    second: prop_tiles_280
+  - first:
+      213: 8351986056379181063
+    second: prop_tiles_281
+  - first:
+      213: -1722140553620394515
+    second: prop_tiles_282
+  - first:
+      213: -8627559809397574858
+    second: prop_tiles_283
+  - first:
+      213: -3967791211509696269
+    second: prop_tiles_284
+  - first:
+      213: -613698137541115030
+    second: prop_tiles_285
+  - first:
+      213: 3399331111845556440
+    second: prop_tiles_286
+  - first:
+      213: -7611147742279294461
+    second: prop_tiles_287
+  - first:
+      213: 7168469274643994807
+    second: prop_tiles_288
+  - first:
+      213: 2916657182708747803
+    second: prop_tiles_289
+  - first:
+      213: -6023707141443812096
+    second: prop_tiles_290
+  - first:
+      213: -867184118562828373
+    second: prop_tiles_291
+  - first:
+      213: 8429285804350704010
+    second: prop_tiles_292
+  - first:
+      213: 6906573559565169697
+    second: prop_tiles_293
+  - first:
+      213: 2824335900791712321
+    second: prop_tiles_294
+  - first:
+      213: -4727855921940182711
+    second: prop_tiles_295
+  - first:
+      213: -908419774388628024
+    second: prop_tiles_296
+  - first:
+      213: -1557242829383871010
+    second: prop_tiles_297
+  - first:
+      213: 5880084457278232822
+    second: prop_tiles_298
+  - first:
+      213: -3754085180405621566
+    second: prop_tiles_299
+  - first:
+      213: -2917790530691497169
+    second: prop_tiles_300
+  - first:
+      213: -530798311189549616
+    second: prop_tiles_301
+  - first:
+      213: -1061027199543606131
+    second: prop_tiles_302
+  - first:
+      213: -3783324734814897859
+    second: prop_tiles_303
+  - first:
+      213: -1073300044649506439
+    second: prop_tiles_304
+  - first:
+      213: 185697308661506545
+    second: prop_tiles_305
+  - first:
+      213: 1304185469865236659
+    second: prop_tiles_306
+  - first:
+      213: -7905464873861308692
+    second: prop_tiles_307
+  - first:
+      213: 5872726769320998330
+    second: prop_tiles_308
+  - first:
+      213: 4595250930788767427
+    second: prop_tiles_309
+  - first:
+      213: -6646239081198106960
+    second: prop_tiles_310
+  - first:
+      213: 2957020526620634892
+    second: prop_tiles_311
+  - first:
+      213: 8843318368150996533
+    second: prop_tiles_312
+  - first:
+      213: 295968115782857162
+    second: prop_tiles_313
+  - first:
+      213: -5032428004407632344
+    second: prop_tiles_314
+  - first:
+      213: -9191554125580443810
+    second: prop_tiles_315
+  - first:
+      213: 2330178655234228095
+    second: prop_tiles_316
+  - first:
+      213: -8942684517900925450
+    second: prop_tiles_317
+  - first:
+      213: 6586353342179522116
+    second: prop_tiles_318
+  - first:
+      213: -5817060422010974565
+    second: prop_tiles_319
+  - first:
+      213: 1061850666882378115
+    second: prop_tiles_320
+  - first:
+      213: 7713038810205358909
+    second: prop_tiles_321
+  - first:
+      213: -7081431464972715703
+    second: prop_tiles_322
+  - first:
+      213: 2308086878960392278
+    second: prop_tiles_323
+  - first:
+      213: 1984189626409699097
+    second: prop_tiles_324
+  - first:
+      213: -6937431844595255703
+    second: prop_tiles_325
+  - first:
+      213: 3457687973985199319
+    second: prop_tiles_326
+  - first:
+      213: -6120954627096454637
+    second: prop_tiles_327
+  - first:
+      213: 2520223546097880435
+    second: prop_tiles_328
+  - first:
+      213: -6375609413806747202
+    second: prop_tiles_329
+  - first:
+      213: -8038087709790233473
+    second: prop_tiles_330
+  - first:
+      213: -4413126077900077619
+    second: prop_tiles_331
+  - first:
+      213: -711261717552286535
+    second: prop_tiles_332
+  - first:
+      213: -7331267103008119337
+    second: prop_tiles_333
+  - first:
+      213: 4981594150816058624
+    second: prop_tiles_334
+  - first:
+      213: -7237878969828705084
+    second: prop_tiles_335
+  - first:
+      213: 2821200850064605910
+    second: prop_tiles_336
+  - first:
+      213: -3212391869019952293
+    second: prop_tiles_337
+  - first:
+      213: -8674154213902900460
+    second: prop_tiles_338
+  - first:
+      213: 9008107355437074372
+    second: prop_tiles_339
+  - first:
+      213: 8961714670639680163
+    second: prop_tiles_340
+  - first:
+      213: -21670027804697861
+    second: prop_tiles_341
+  - first:
+      213: -6705406389805391318
+    second: prop_tiles_342
+  - first:
+      213: 8831270176979919133
+    second: prop_tiles_343
+  - first:
+      213: 1517663928950904720
+    second: prop_tiles_344
+  - first:
+      213: 5913302426410672190
+    second: prop_tiles_345
+  - first:
+      213: 6619797288557701151
+    second: prop_tiles_346
+  - first:
+      213: -3709949181819997715
+    second: prop_tiles_347
+  - first:
+      213: -8985905338003907067
+    second: prop_tiles_348
+  - first:
+      213: 4578529991308608535
+    second: prop_tiles_349
+  - first:
+      213: -1929497070643818274
+    second: prop_tiles_350
+  - first:
+      213: -7916996500202625749
+    second: prop_tiles_351
+  - first:
+      213: 8791704946940432187
+    second: prop_tiles_352
+  - first:
+      213: 8212704180744623257
+    second: prop_tiles_353
+  - first:
+      213: 5267732159744950209
+    second: prop_tiles_354
+  - first:
+      213: 6174483940465416456
+    second: prop_tiles_355
+  - first:
+      213: -3685730057560786866
+    second: prop_tiles_356
+  - first:
+      213: 3270876508957814309
+    second: prop_tiles_357
+  - first:
+      213: 6249302906739889740
+    second: prop_tiles_358
+  - first:
+      213: 8140749973371982711
+    second: prop_tiles_359
+  - first:
+      213: -2586371537144057978
+    second: prop_tiles_360
+  - first:
+      213: 7982681105028434427
+    second: prop_tiles_361
+  - first:
+      213: -8495775167290523302
+    second: prop_tiles_362
+  - first:
+      213: 5880508304736261133
+    second: prop_tiles_363
+  - first:
+      213: 2362373080609056567
+    second: prop_tiles_364
+  - first:
+      213: 3292875461875841221
+    second: prop_tiles_365
+  - first:
+      213: 1020174370014151010
+    second: prop_tiles_366
+  - first:
+      213: -7082393199770305200
+    second: prop_tiles_367
+  - first:
+      213: 5276024621919995093
+    second: prop_tiles_368
+  - first:
+      213: 9207204984050873416
+    second: prop_tiles_369
+  - first:
+      213: -2290980225312069586
+    second: prop_tiles_370
+  - first:
+      213: -5716100094155833593
+    second: prop_tiles_371
+  - first:
+      213: -921960865228742830
+    second: prop_tiles_372
+  - first:
+      213: -5645218408252950960
+    second: prop_tiles_373
+  - first:
+      213: -1366928568758715599
+    second: prop_tiles_374
+  - first:
+      213: 885292994891840435
+    second: prop_tiles_375
+  - first:
+      213: -854144822133186046
+    second: prop_tiles_376
+  - first:
+      213: 3423857550485110658
+    second: prop_tiles_377
+  - first:
+      213: -3682679545490481105
+    second: prop_tiles_378
+  - first:
+      213: 5596071386965788648
+    second: prop_tiles_379
+  - first:
+      213: -6008816914292129882
+    second: prop_tiles_380
+  - first:
+      213: 7482015306724445419
+    second: prop_tiles_381
+  - first:
+      213: -6339891443014450452
+    second: prop_tiles_382
+  - first:
+      213: 2590039130125445127
+    second: prop_tiles_383
+  - first:
+      213: 4601801397342873828
+    second: prop_tiles_384
+  - first:
+      213: 7135249321352684055
+    second: prop_tiles_385
+  - first:
+      213: -5206567849458603882
+    second: prop_tiles_386
+  - first:
+      213: 2491313633359644758
+    second: prop_tiles_387
+  - first:
+      213: 4923395313514560930
+    second: prop_tiles_388
+  - first:
+      213: 2689535096858626158
+    second: prop_tiles_389
+  - first:
+      213: 9034975774436785340
+    second: prop_tiles_390
+  - first:
+      213: 2379183548163658185
+    second: prop_tiles_391
+  - first:
+      213: 2696228949473690686
+    second: prop_tiles_392
+  - first:
+      213: 7225422492452698229
+    second: prop_tiles_393
+  - first:
+      213: -3395552335660028042
+    second: prop_tiles_394
+  - first:
+      213: 4549175781218269372
+    second: prop_tiles_395
+  - first:
+      213: -7445213435962669270
+    second: prop_tiles_396
+  - first:
+      213: 3865213598492971792
+    second: prop_tiles_397
+  - first:
+      213: 7628812811966630215
+    second: prop_tiles_398
+  - first:
+      213: 8388375601810980678
+    second: prop_tiles_399
+  - first:
+      213: -5535849858753489656
+    second: prop_tiles_400
+  - first:
+      213: -3211224442848359130
+    second: prop_tiles_401
+  - first:
+      213: -3408813732814795859
+    second: prop_tiles_402
+  - first:
+      213: 2100441120137098103
+    second: prop_tiles_403
+  - first:
+      213: 2692637774144738920
+    second: prop_tiles_404
+  - first:
+      213: -1715665784219415242
+    second: prop_tiles_405
+  - first:
+      213: 3303384344858313938
+    second: prop_tiles_406
+  - first:
+      213: 4996012219919865346
+    second: prop_tiles_407
+  - first:
+      213: -4929859165888600992
+    second: prop_tiles_408
+  - first:
+      213: -6314841739885358789
+    second: prop_tiles_409
+  - first:
+      213: -6768667320960288417
+    second: prop_tiles_410
+  - first:
+      213: 6887710880619931700
+    second: prop_tiles_411
+  - first:
+      213: -4981924857851850092
+    second: prop_tiles_412
+  - first:
+      213: 4006774574601892763
+    second: prop_tiles_413
+  - first:
+      213: 3093711688191997672
+    second: prop_tiles_414
+  - first:
+      213: 6386640454206678872
+    second: prop_tiles_415
+  - first:
+      213: 7082484107556067045
+    second: prop_tiles_416
+  - first:
+      213: -1908924431007328277
+    second: prop_tiles_417
+  - first:
+      213: -7134728358695317300
+    second: prop_tiles_418
+  - first:
+      213: 5760978020934652924
+    second: prop_tiles_419
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -762,7 +1380,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 544
+        y: 1088
         width: 32
         height: 32
       alignment: 0
@@ -783,7 +1401,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 544
+        y: 1088
         width: 32
         height: 32
       alignment: 0
@@ -804,7 +1422,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 544
+        y: 1088
         width: 32
         height: 32
       alignment: 0
@@ -825,7 +1443,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 544
+        y: 1088
         width: 32
         height: 32
       alignment: 0
@@ -845,8 +1463,8 @@ TextureImporter:
       name: prop_tiles_4
       rect:
         serializedVersion: 2
-        x: 192
-        y: 544
+        x: 128
+        y: 1088
         width: 32
         height: 32
       alignment: 0
@@ -866,8 +1484,8 @@ TextureImporter:
       name: prop_tiles_5
       rect:
         serializedVersion: 2
-        x: 224
-        y: 544
+        x: 160
+        y: 1088
         width: 32
         height: 32
       alignment: 0
@@ -887,8 +1505,8 @@ TextureImporter:
       name: prop_tiles_6
       rect:
         serializedVersion: 2
-        x: 256
-        y: 544
+        x: 192
+        y: 1088
         width: 32
         height: 32
       alignment: 0
@@ -908,8 +1526,8 @@ TextureImporter:
       name: prop_tiles_7
       rect:
         serializedVersion: 2
-        x: 288
-        y: 544
+        x: 224
+        y: 1088
         width: 32
         height: 32
       alignment: 0
@@ -929,8 +1547,8 @@ TextureImporter:
       name: prop_tiles_8
       rect:
         serializedVersion: 2
-        x: 320
-        y: 544
+        x: 256
+        y: 1088
         width: 32
         height: 32
       alignment: 0
@@ -950,8 +1568,8 @@ TextureImporter:
       name: prop_tiles_9
       rect:
         serializedVersion: 2
-        x: 352
-        y: 544
+        x: 288
+        y: 1088
         width: 32
         height: 32
       alignment: 0
@@ -971,8 +1589,8 @@ TextureImporter:
       name: prop_tiles_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 512
+        x: 320
+        y: 1088
         width: 32
         height: 32
       alignment: 0
@@ -992,8 +1610,8 @@ TextureImporter:
       name: prop_tiles_11
       rect:
         serializedVersion: 2
-        x: 32
-        y: 512
+        x: 352
+        y: 1088
         width: 32
         height: 32
       alignment: 0
@@ -1013,8 +1631,8 @@ TextureImporter:
       name: prop_tiles_12
       rect:
         serializedVersion: 2
-        x: 64
-        y: 512
+        x: 0
+        y: 1056
         width: 32
         height: 32
       alignment: 0
@@ -1034,8 +1652,8 @@ TextureImporter:
       name: prop_tiles_13
       rect:
         serializedVersion: 2
-        x: 96
-        y: 512
+        x: 32
+        y: 1056
         width: 32
         height: 32
       alignment: 0
@@ -1055,8 +1673,8 @@ TextureImporter:
       name: prop_tiles_14
       rect:
         serializedVersion: 2
-        x: 128
-        y: 512
+        x: 64
+        y: 1056
         width: 32
         height: 32
       alignment: 0
@@ -1076,8 +1694,8 @@ TextureImporter:
       name: prop_tiles_15
       rect:
         serializedVersion: 2
-        x: 160
-        y: 512
+        x: 96
+        y: 1056
         width: 32
         height: 32
       alignment: 0
@@ -1097,8 +1715,8 @@ TextureImporter:
       name: prop_tiles_16
       rect:
         serializedVersion: 2
-        x: 192
-        y: 512
+        x: 128
+        y: 1056
         width: 32
         height: 32
       alignment: 0
@@ -1118,8 +1736,8 @@ TextureImporter:
       name: prop_tiles_17
       rect:
         serializedVersion: 2
-        x: 224
-        y: 512
+        x: 160
+        y: 1056
         width: 32
         height: 32
       alignment: 0
@@ -1139,8 +1757,8 @@ TextureImporter:
       name: prop_tiles_18
       rect:
         serializedVersion: 2
-        x: 256
-        y: 512
+        x: 192
+        y: 1056
         width: 32
         height: 32
       alignment: 0
@@ -1160,8 +1778,8 @@ TextureImporter:
       name: prop_tiles_19
       rect:
         serializedVersion: 2
-        x: 288
-        y: 512
+        x: 224
+        y: 1056
         width: 32
         height: 32
       alignment: 0
@@ -1181,8 +1799,8 @@ TextureImporter:
       name: prop_tiles_20
       rect:
         serializedVersion: 2
-        x: 320
-        y: 512
+        x: 256
+        y: 1056
         width: 32
         height: 32
       alignment: 0
@@ -1202,8 +1820,8 @@ TextureImporter:
       name: prop_tiles_21
       rect:
         serializedVersion: 2
-        x: 352
-        y: 512
+        x: 288
+        y: 1056
         width: 32
         height: 32
       alignment: 0
@@ -1223,8 +1841,8 @@ TextureImporter:
       name: prop_tiles_22
       rect:
         serializedVersion: 2
-        x: 0
-        y: 480
+        x: 320
+        y: 1056
         width: 32
         height: 32
       alignment: 0
@@ -1244,8 +1862,8 @@ TextureImporter:
       name: prop_tiles_23
       rect:
         serializedVersion: 2
-        x: 32
-        y: 480
+        x: 352
+        y: 1056
         width: 32
         height: 32
       alignment: 0
@@ -1265,8 +1883,8 @@ TextureImporter:
       name: prop_tiles_24
       rect:
         serializedVersion: 2
-        x: 64
-        y: 480
+        x: 0
+        y: 1024
         width: 32
         height: 32
       alignment: 0
@@ -1286,8 +1904,8 @@ TextureImporter:
       name: prop_tiles_25
       rect:
         serializedVersion: 2
-        x: 96
-        y: 480
+        x: 32
+        y: 1024
         width: 32
         height: 32
       alignment: 0
@@ -1307,8 +1925,8 @@ TextureImporter:
       name: prop_tiles_26
       rect:
         serializedVersion: 2
-        x: 128
-        y: 480
+        x: 64
+        y: 1024
         width: 32
         height: 32
       alignment: 0
@@ -1328,8 +1946,8 @@ TextureImporter:
       name: prop_tiles_27
       rect:
         serializedVersion: 2
-        x: 160
-        y: 480
+        x: 96
+        y: 1024
         width: 32
         height: 32
       alignment: 0
@@ -1349,8 +1967,8 @@ TextureImporter:
       name: prop_tiles_28
       rect:
         serializedVersion: 2
-        x: 192
-        y: 480
+        x: 128
+        y: 1024
         width: 32
         height: 32
       alignment: 0
@@ -1370,8 +1988,8 @@ TextureImporter:
       name: prop_tiles_29
       rect:
         serializedVersion: 2
-        x: 224
-        y: 480
+        x: 160
+        y: 1024
         width: 32
         height: 32
       alignment: 0
@@ -1391,8 +2009,8 @@ TextureImporter:
       name: prop_tiles_30
       rect:
         serializedVersion: 2
-        x: 256
-        y: 480
+        x: 192
+        y: 1024
         width: 32
         height: 32
       alignment: 0
@@ -1412,8 +2030,8 @@ TextureImporter:
       name: prop_tiles_31
       rect:
         serializedVersion: 2
-        x: 288
-        y: 480
+        x: 224
+        y: 1024
         width: 32
         height: 32
       alignment: 0
@@ -1433,8 +2051,8 @@ TextureImporter:
       name: prop_tiles_32
       rect:
         serializedVersion: 2
-        x: 320
-        y: 480
+        x: 256
+        y: 1024
         width: 32
         height: 32
       alignment: 0
@@ -1454,8 +2072,8 @@ TextureImporter:
       name: prop_tiles_33
       rect:
         serializedVersion: 2
-        x: 352
-        y: 480
+        x: 288
+        y: 1024
         width: 32
         height: 32
       alignment: 0
@@ -1475,8 +2093,8 @@ TextureImporter:
       name: prop_tiles_34
       rect:
         serializedVersion: 2
-        x: 0
-        y: 448
+        x: 320
+        y: 1024
         width: 32
         height: 32
       alignment: 0
@@ -1496,8 +2114,8 @@ TextureImporter:
       name: prop_tiles_35
       rect:
         serializedVersion: 2
-        x: 32
-        y: 448
+        x: 352
+        y: 1024
         width: 32
         height: 32
       alignment: 0
@@ -1517,8 +2135,8 @@ TextureImporter:
       name: prop_tiles_36
       rect:
         serializedVersion: 2
-        x: 64
-        y: 448
+        x: 0
+        y: 992
         width: 32
         height: 32
       alignment: 0
@@ -1538,8 +2156,8 @@ TextureImporter:
       name: prop_tiles_37
       rect:
         serializedVersion: 2
-        x: 96
-        y: 448
+        x: 32
+        y: 992
         width: 32
         height: 32
       alignment: 0
@@ -1559,8 +2177,8 @@ TextureImporter:
       name: prop_tiles_38
       rect:
         serializedVersion: 2
-        x: 128
-        y: 448
+        x: 64
+        y: 992
         width: 32
         height: 32
       alignment: 0
@@ -1580,8 +2198,8 @@ TextureImporter:
       name: prop_tiles_39
       rect:
         serializedVersion: 2
-        x: 160
-        y: 448
+        x: 96
+        y: 992
         width: 32
         height: 32
       alignment: 0
@@ -1601,8 +2219,8 @@ TextureImporter:
       name: prop_tiles_40
       rect:
         serializedVersion: 2
-        x: 192
-        y: 448
+        x: 128
+        y: 992
         width: 32
         height: 32
       alignment: 0
@@ -1622,8 +2240,8 @@ TextureImporter:
       name: prop_tiles_41
       rect:
         serializedVersion: 2
-        x: 224
-        y: 448
+        x: 160
+        y: 992
         width: 32
         height: 32
       alignment: 0
@@ -1643,8 +2261,8 @@ TextureImporter:
       name: prop_tiles_42
       rect:
         serializedVersion: 2
-        x: 256
-        y: 448
+        x: 192
+        y: 992
         width: 32
         height: 32
       alignment: 0
@@ -1664,8 +2282,8 @@ TextureImporter:
       name: prop_tiles_43
       rect:
         serializedVersion: 2
-        x: 288
-        y: 448
+        x: 224
+        y: 992
         width: 32
         height: 32
       alignment: 0
@@ -1685,8 +2303,8 @@ TextureImporter:
       name: prop_tiles_44
       rect:
         serializedVersion: 2
-        x: 320
-        y: 448
+        x: 256
+        y: 992
         width: 32
         height: 32
       alignment: 0
@@ -1706,8 +2324,8 @@ TextureImporter:
       name: prop_tiles_45
       rect:
         serializedVersion: 2
-        x: 352
-        y: 448
+        x: 288
+        y: 992
         width: 32
         height: 32
       alignment: 0
@@ -1727,8 +2345,8 @@ TextureImporter:
       name: prop_tiles_46
       rect:
         serializedVersion: 2
-        x: 0
-        y: 416
+        x: 320
+        y: 992
         width: 32
         height: 32
       alignment: 0
@@ -1748,8 +2366,8 @@ TextureImporter:
       name: prop_tiles_47
       rect:
         serializedVersion: 2
-        x: 32
-        y: 416
+        x: 352
+        y: 992
         width: 32
         height: 32
       alignment: 0
@@ -1769,8 +2387,8 @@ TextureImporter:
       name: prop_tiles_48
       rect:
         serializedVersion: 2
-        x: 64
-        y: 416
+        x: 0
+        y: 960
         width: 32
         height: 32
       alignment: 0
@@ -1790,8 +2408,8 @@ TextureImporter:
       name: prop_tiles_49
       rect:
         serializedVersion: 2
-        x: 96
-        y: 416
+        x: 32
+        y: 960
         width: 32
         height: 32
       alignment: 0
@@ -1811,8 +2429,8 @@ TextureImporter:
       name: prop_tiles_50
       rect:
         serializedVersion: 2
-        x: 128
-        y: 416
+        x: 64
+        y: 960
         width: 32
         height: 32
       alignment: 0
@@ -1832,8 +2450,8 @@ TextureImporter:
       name: prop_tiles_51
       rect:
         serializedVersion: 2
-        x: 160
-        y: 416
+        x: 96
+        y: 960
         width: 32
         height: 32
       alignment: 0
@@ -1853,8 +2471,8 @@ TextureImporter:
       name: prop_tiles_52
       rect:
         serializedVersion: 2
-        x: 192
-        y: 416
+        x: 128
+        y: 960
         width: 32
         height: 32
       alignment: 0
@@ -1874,8 +2492,8 @@ TextureImporter:
       name: prop_tiles_53
       rect:
         serializedVersion: 2
-        x: 224
-        y: 416
+        x: 160
+        y: 960
         width: 32
         height: 32
       alignment: 0
@@ -1895,8 +2513,8 @@ TextureImporter:
       name: prop_tiles_54
       rect:
         serializedVersion: 2
-        x: 256
-        y: 416
+        x: 192
+        y: 960
         width: 32
         height: 32
       alignment: 0
@@ -1916,8 +2534,8 @@ TextureImporter:
       name: prop_tiles_55
       rect:
         serializedVersion: 2
-        x: 288
-        y: 416
+        x: 224
+        y: 960
         width: 32
         height: 32
       alignment: 0
@@ -1937,8 +2555,8 @@ TextureImporter:
       name: prop_tiles_56
       rect:
         serializedVersion: 2
-        x: 320
-        y: 416
+        x: 256
+        y: 960
         width: 32
         height: 32
       alignment: 0
@@ -1958,8 +2576,8 @@ TextureImporter:
       name: prop_tiles_57
       rect:
         serializedVersion: 2
-        x: 352
-        y: 416
+        x: 288
+        y: 960
         width: 32
         height: 32
       alignment: 0
@@ -1979,8 +2597,8 @@ TextureImporter:
       name: prop_tiles_58
       rect:
         serializedVersion: 2
-        x: 0
-        y: 384
+        x: 320
+        y: 960
         width: 32
         height: 32
       alignment: 0
@@ -2000,8 +2618,8 @@ TextureImporter:
       name: prop_tiles_59
       rect:
         serializedVersion: 2
-        x: 32
-        y: 384
+        x: 352
+        y: 960
         width: 32
         height: 32
       alignment: 0
@@ -2021,8 +2639,8 @@ TextureImporter:
       name: prop_tiles_60
       rect:
         serializedVersion: 2
-        x: 64
-        y: 384
+        x: 0
+        y: 928
         width: 32
         height: 32
       alignment: 0
@@ -2042,8 +2660,8 @@ TextureImporter:
       name: prop_tiles_61
       rect:
         serializedVersion: 2
-        x: 96
-        y: 384
+        x: 32
+        y: 928
         width: 32
         height: 32
       alignment: 0
@@ -2063,8 +2681,8 @@ TextureImporter:
       name: prop_tiles_62
       rect:
         serializedVersion: 2
-        x: 128
-        y: 384
+        x: 64
+        y: 928
         width: 32
         height: 32
       alignment: 0
@@ -2084,8 +2702,8 @@ TextureImporter:
       name: prop_tiles_63
       rect:
         serializedVersion: 2
-        x: 160
-        y: 384
+        x: 96
+        y: 928
         width: 32
         height: 32
       alignment: 0
@@ -2105,8 +2723,8 @@ TextureImporter:
       name: prop_tiles_64
       rect:
         serializedVersion: 2
-        x: 192
-        y: 384
+        x: 128
+        y: 928
         width: 32
         height: 32
       alignment: 0
@@ -2126,8 +2744,8 @@ TextureImporter:
       name: prop_tiles_65
       rect:
         serializedVersion: 2
-        x: 224
-        y: 384
+        x: 160
+        y: 928
         width: 32
         height: 32
       alignment: 0
@@ -2147,8 +2765,8 @@ TextureImporter:
       name: prop_tiles_66
       rect:
         serializedVersion: 2
-        x: 256
-        y: 384
+        x: 192
+        y: 928
         width: 32
         height: 32
       alignment: 0
@@ -2168,8 +2786,8 @@ TextureImporter:
       name: prop_tiles_67
       rect:
         serializedVersion: 2
-        x: 288
-        y: 384
+        x: 224
+        y: 928
         width: 32
         height: 32
       alignment: 0
@@ -2189,8 +2807,8 @@ TextureImporter:
       name: prop_tiles_68
       rect:
         serializedVersion: 2
-        x: 320
-        y: 384
+        x: 256
+        y: 928
         width: 32
         height: 32
       alignment: 0
@@ -2210,8 +2828,8 @@ TextureImporter:
       name: prop_tiles_69
       rect:
         serializedVersion: 2
-        x: 352
-        y: 384
+        x: 288
+        y: 928
         width: 32
         height: 32
       alignment: 0
@@ -2231,8 +2849,8 @@ TextureImporter:
       name: prop_tiles_70
       rect:
         serializedVersion: 2
-        x: 0
-        y: 352
+        x: 320
+        y: 928
         width: 32
         height: 32
       alignment: 0
@@ -2252,8 +2870,8 @@ TextureImporter:
       name: prop_tiles_71
       rect:
         serializedVersion: 2
-        x: 32
-        y: 352
+        x: 352
+        y: 928
         width: 32
         height: 32
       alignment: 0
@@ -2273,8 +2891,8 @@ TextureImporter:
       name: prop_tiles_72
       rect:
         serializedVersion: 2
-        x: 64
-        y: 352
+        x: 0
+        y: 896
         width: 32
         height: 32
       alignment: 0
@@ -2294,8 +2912,8 @@ TextureImporter:
       name: prop_tiles_73
       rect:
         serializedVersion: 2
-        x: 96
-        y: 352
+        x: 32
+        y: 896
         width: 32
         height: 32
       alignment: 0
@@ -2315,8 +2933,8 @@ TextureImporter:
       name: prop_tiles_74
       rect:
         serializedVersion: 2
-        x: 128
-        y: 352
+        x: 64
+        y: 896
         width: 32
         height: 32
       alignment: 0
@@ -2336,8 +2954,8 @@ TextureImporter:
       name: prop_tiles_75
       rect:
         serializedVersion: 2
-        x: 160
-        y: 352
+        x: 96
+        y: 896
         width: 32
         height: 32
       alignment: 0
@@ -2357,8 +2975,8 @@ TextureImporter:
       name: prop_tiles_76
       rect:
         serializedVersion: 2
-        x: 192
-        y: 352
+        x: 128
+        y: 896
         width: 32
         height: 32
       alignment: 0
@@ -2378,8 +2996,8 @@ TextureImporter:
       name: prop_tiles_77
       rect:
         serializedVersion: 2
-        x: 224
-        y: 352
+        x: 160
+        y: 896
         width: 32
         height: 32
       alignment: 0
@@ -2399,8 +3017,8 @@ TextureImporter:
       name: prop_tiles_78
       rect:
         serializedVersion: 2
-        x: 256
-        y: 352
+        x: 192
+        y: 896
         width: 32
         height: 32
       alignment: 0
@@ -2420,8 +3038,8 @@ TextureImporter:
       name: prop_tiles_79
       rect:
         serializedVersion: 2
-        x: 288
-        y: 352
+        x: 224
+        y: 896
         width: 32
         height: 32
       alignment: 0
@@ -2441,8 +3059,8 @@ TextureImporter:
       name: prop_tiles_80
       rect:
         serializedVersion: 2
-        x: 320
-        y: 352
+        x: 256
+        y: 896
         width: 32
         height: 32
       alignment: 0
@@ -2462,8 +3080,8 @@ TextureImporter:
       name: prop_tiles_81
       rect:
         serializedVersion: 2
-        x: 352
-        y: 352
+        x: 288
+        y: 896
         width: 32
         height: 32
       alignment: 0
@@ -2483,8 +3101,8 @@ TextureImporter:
       name: prop_tiles_82
       rect:
         serializedVersion: 2
-        x: 0
-        y: 320
+        x: 320
+        y: 896
         width: 32
         height: 32
       alignment: 0
@@ -2504,8 +3122,8 @@ TextureImporter:
       name: prop_tiles_83
       rect:
         serializedVersion: 2
-        x: 32
-        y: 320
+        x: 352
+        y: 896
         width: 32
         height: 32
       alignment: 0
@@ -2525,8 +3143,8 @@ TextureImporter:
       name: prop_tiles_84
       rect:
         serializedVersion: 2
-        x: 64
-        y: 320
+        x: 0
+        y: 864
         width: 32
         height: 32
       alignment: 0
@@ -2546,8 +3164,8 @@ TextureImporter:
       name: prop_tiles_85
       rect:
         serializedVersion: 2
-        x: 96
-        y: 320
+        x: 32
+        y: 864
         width: 32
         height: 32
       alignment: 0
@@ -2567,8 +3185,8 @@ TextureImporter:
       name: prop_tiles_86
       rect:
         serializedVersion: 2
-        x: 128
-        y: 320
+        x: 64
+        y: 864
         width: 32
         height: 32
       alignment: 0
@@ -2588,8 +3206,8 @@ TextureImporter:
       name: prop_tiles_87
       rect:
         serializedVersion: 2
-        x: 160
-        y: 320
+        x: 96
+        y: 864
         width: 32
         height: 32
       alignment: 0
@@ -2609,8 +3227,8 @@ TextureImporter:
       name: prop_tiles_88
       rect:
         serializedVersion: 2
-        x: 192
-        y: 320
+        x: 128
+        y: 864
         width: 32
         height: 32
       alignment: 0
@@ -2630,8 +3248,8 @@ TextureImporter:
       name: prop_tiles_89
       rect:
         serializedVersion: 2
-        x: 224
-        y: 320
+        x: 160
+        y: 864
         width: 32
         height: 32
       alignment: 0
@@ -2651,8 +3269,8 @@ TextureImporter:
       name: prop_tiles_90
       rect:
         serializedVersion: 2
-        x: 256
-        y: 320
+        x: 192
+        y: 864
         width: 32
         height: 32
       alignment: 0
@@ -2672,8 +3290,8 @@ TextureImporter:
       name: prop_tiles_91
       rect:
         serializedVersion: 2
-        x: 288
-        y: 320
+        x: 224
+        y: 864
         width: 32
         height: 32
       alignment: 0
@@ -2693,8 +3311,8 @@ TextureImporter:
       name: prop_tiles_92
       rect:
         serializedVersion: 2
-        x: 320
-        y: 320
+        x: 256
+        y: 864
         width: 32
         height: 32
       alignment: 0
@@ -2714,8 +3332,8 @@ TextureImporter:
       name: prop_tiles_93
       rect:
         serializedVersion: 2
-        x: 352
-        y: 320
+        x: 288
+        y: 864
         width: 32
         height: 32
       alignment: 0
@@ -2735,8 +3353,8 @@ TextureImporter:
       name: prop_tiles_94
       rect:
         serializedVersion: 2
-        x: 0
-        y: 288
+        x: 320
+        y: 864
         width: 32
         height: 32
       alignment: 0
@@ -2756,8 +3374,8 @@ TextureImporter:
       name: prop_tiles_95
       rect:
         serializedVersion: 2
-        x: 32
-        y: 288
+        x: 352
+        y: 864
         width: 32
         height: 32
       alignment: 0
@@ -2777,8 +3395,8 @@ TextureImporter:
       name: prop_tiles_96
       rect:
         serializedVersion: 2
-        x: 64
-        y: 288
+        x: 0
+        y: 832
         width: 32
         height: 32
       alignment: 0
@@ -2798,8 +3416,8 @@ TextureImporter:
       name: prop_tiles_97
       rect:
         serializedVersion: 2
-        x: 96
-        y: 288
+        x: 32
+        y: 832
         width: 32
         height: 32
       alignment: 0
@@ -2819,8 +3437,8 @@ TextureImporter:
       name: prop_tiles_98
       rect:
         serializedVersion: 2
-        x: 128
-        y: 288
+        x: 64
+        y: 832
         width: 32
         height: 32
       alignment: 0
@@ -2840,8 +3458,8 @@ TextureImporter:
       name: prop_tiles_99
       rect:
         serializedVersion: 2
-        x: 160
-        y: 288
+        x: 96
+        y: 832
         width: 32
         height: 32
       alignment: 0
@@ -2861,8 +3479,8 @@ TextureImporter:
       name: prop_tiles_100
       rect:
         serializedVersion: 2
-        x: 192
-        y: 288
+        x: 128
+        y: 832
         width: 32
         height: 32
       alignment: 0
@@ -2882,8 +3500,8 @@ TextureImporter:
       name: prop_tiles_101
       rect:
         serializedVersion: 2
-        x: 224
-        y: 288
+        x: 160
+        y: 832
         width: 32
         height: 32
       alignment: 0
@@ -2903,8 +3521,8 @@ TextureImporter:
       name: prop_tiles_102
       rect:
         serializedVersion: 2
-        x: 256
-        y: 288
+        x: 192
+        y: 832
         width: 32
         height: 32
       alignment: 0
@@ -2924,8 +3542,8 @@ TextureImporter:
       name: prop_tiles_103
       rect:
         serializedVersion: 2
-        x: 288
-        y: 288
+        x: 224
+        y: 832
         width: 32
         height: 32
       alignment: 0
@@ -2945,8 +3563,8 @@ TextureImporter:
       name: prop_tiles_104
       rect:
         serializedVersion: 2
-        x: 320
-        y: 288
+        x: 256
+        y: 832
         width: 32
         height: 32
       alignment: 0
@@ -2966,8 +3584,8 @@ TextureImporter:
       name: prop_tiles_105
       rect:
         serializedVersion: 2
-        x: 352
-        y: 288
+        x: 288
+        y: 832
         width: 32
         height: 32
       alignment: 0
@@ -2987,8 +3605,8 @@ TextureImporter:
       name: prop_tiles_106
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
+        x: 320
+        y: 832
         width: 32
         height: 32
       alignment: 0
@@ -3008,8 +3626,8 @@ TextureImporter:
       name: prop_tiles_107
       rect:
         serializedVersion: 2
-        x: 32
-        y: 256
+        x: 352
+        y: 832
         width: 32
         height: 32
       alignment: 0
@@ -3029,8 +3647,8 @@ TextureImporter:
       name: prop_tiles_108
       rect:
         serializedVersion: 2
-        x: 64
-        y: 256
+        x: 0
+        y: 800
         width: 32
         height: 32
       alignment: 0
@@ -3050,8 +3668,8 @@ TextureImporter:
       name: prop_tiles_109
       rect:
         serializedVersion: 2
-        x: 96
-        y: 256
+        x: 32
+        y: 800
         width: 32
         height: 32
       alignment: 0
@@ -3071,8 +3689,8 @@ TextureImporter:
       name: prop_tiles_110
       rect:
         serializedVersion: 2
-        x: 128
-        y: 256
+        x: 64
+        y: 800
         width: 32
         height: 32
       alignment: 0
@@ -3092,8 +3710,8 @@ TextureImporter:
       name: prop_tiles_111
       rect:
         serializedVersion: 2
-        x: 160
-        y: 256
+        x: 96
+        y: 800
         width: 32
         height: 32
       alignment: 0
@@ -3113,8 +3731,8 @@ TextureImporter:
       name: prop_tiles_112
       rect:
         serializedVersion: 2
-        x: 192
-        y: 256
+        x: 128
+        y: 800
         width: 32
         height: 32
       alignment: 0
@@ -3134,8 +3752,8 @@ TextureImporter:
       name: prop_tiles_113
       rect:
         serializedVersion: 2
-        x: 224
-        y: 256
+        x: 160
+        y: 800
         width: 32
         height: 32
       alignment: 0
@@ -3155,8 +3773,8 @@ TextureImporter:
       name: prop_tiles_114
       rect:
         serializedVersion: 2
-        x: 256
-        y: 256
+        x: 192
+        y: 800
         width: 32
         height: 32
       alignment: 0
@@ -3176,8 +3794,8 @@ TextureImporter:
       name: prop_tiles_115
       rect:
         serializedVersion: 2
-        x: 288
-        y: 256
+        x: 224
+        y: 800
         width: 32
         height: 32
       alignment: 0
@@ -3197,8 +3815,8 @@ TextureImporter:
       name: prop_tiles_116
       rect:
         serializedVersion: 2
-        x: 320
-        y: 256
+        x: 256
+        y: 800
         width: 32
         height: 32
       alignment: 0
@@ -3218,8 +3836,8 @@ TextureImporter:
       name: prop_tiles_117
       rect:
         serializedVersion: 2
-        x: 352
-        y: 256
+        x: 288
+        y: 800
         width: 32
         height: 32
       alignment: 0
@@ -3239,8 +3857,8 @@ TextureImporter:
       name: prop_tiles_118
       rect:
         serializedVersion: 2
-        x: 0
-        y: 224
+        x: 320
+        y: 800
         width: 32
         height: 32
       alignment: 0
@@ -3260,8 +3878,8 @@ TextureImporter:
       name: prop_tiles_119
       rect:
         serializedVersion: 2
-        x: 32
-        y: 224
+        x: 352
+        y: 800
         width: 32
         height: 32
       alignment: 0
@@ -3281,8 +3899,8 @@ TextureImporter:
       name: prop_tiles_120
       rect:
         serializedVersion: 2
-        x: 64
-        y: 224
+        x: 0
+        y: 768
         width: 32
         height: 32
       alignment: 0
@@ -3302,8 +3920,8 @@ TextureImporter:
       name: prop_tiles_121
       rect:
         serializedVersion: 2
-        x: 96
-        y: 224
+        x: 32
+        y: 768
         width: 32
         height: 32
       alignment: 0
@@ -3323,8 +3941,8 @@ TextureImporter:
       name: prop_tiles_122
       rect:
         serializedVersion: 2
-        x: 128
-        y: 224
+        x: 64
+        y: 768
         width: 32
         height: 32
       alignment: 0
@@ -3344,8 +3962,8 @@ TextureImporter:
       name: prop_tiles_123
       rect:
         serializedVersion: 2
-        x: 160
-        y: 224
+        x: 96
+        y: 768
         width: 32
         height: 32
       alignment: 0
@@ -3365,8 +3983,8 @@ TextureImporter:
       name: prop_tiles_124
       rect:
         serializedVersion: 2
-        x: 192
-        y: 224
+        x: 128
+        y: 768
         width: 32
         height: 32
       alignment: 0
@@ -3386,8 +4004,8 @@ TextureImporter:
       name: prop_tiles_125
       rect:
         serializedVersion: 2
-        x: 224
-        y: 224
+        x: 160
+        y: 768
         width: 32
         height: 32
       alignment: 0
@@ -3407,8 +4025,8 @@ TextureImporter:
       name: prop_tiles_126
       rect:
         serializedVersion: 2
-        x: 256
-        y: 224
+        x: 192
+        y: 768
         width: 32
         height: 32
       alignment: 0
@@ -3428,8 +4046,8 @@ TextureImporter:
       name: prop_tiles_127
       rect:
         serializedVersion: 2
-        x: 288
-        y: 224
+        x: 224
+        y: 768
         width: 32
         height: 32
       alignment: 0
@@ -3449,8 +4067,8 @@ TextureImporter:
       name: prop_tiles_128
       rect:
         serializedVersion: 2
-        x: 320
-        y: 224
+        x: 256
+        y: 768
         width: 32
         height: 32
       alignment: 0
@@ -3470,8 +4088,8 @@ TextureImporter:
       name: prop_tiles_129
       rect:
         serializedVersion: 2
-        x: 352
-        y: 224
+        x: 288
+        y: 768
         width: 32
         height: 32
       alignment: 0
@@ -3491,8 +4109,8 @@ TextureImporter:
       name: prop_tiles_130
       rect:
         serializedVersion: 2
-        x: 0
-        y: 192
+        x: 320
+        y: 768
         width: 32
         height: 32
       alignment: 0
@@ -3512,8 +4130,8 @@ TextureImporter:
       name: prop_tiles_131
       rect:
         serializedVersion: 2
-        x: 32
-        y: 192
+        x: 352
+        y: 768
         width: 32
         height: 32
       alignment: 0
@@ -3533,8 +4151,8 @@ TextureImporter:
       name: prop_tiles_132
       rect:
         serializedVersion: 2
-        x: 64
-        y: 192
+        x: 0
+        y: 736
         width: 32
         height: 32
       alignment: 0
@@ -3554,8 +4172,8 @@ TextureImporter:
       name: prop_tiles_133
       rect:
         serializedVersion: 2
-        x: 96
-        y: 192
+        x: 32
+        y: 736
         width: 32
         height: 32
       alignment: 0
@@ -3575,8 +4193,8 @@ TextureImporter:
       name: prop_tiles_134
       rect:
         serializedVersion: 2
-        x: 128
-        y: 192
+        x: 64
+        y: 736
         width: 32
         height: 32
       alignment: 0
@@ -3596,8 +4214,8 @@ TextureImporter:
       name: prop_tiles_135
       rect:
         serializedVersion: 2
-        x: 160
-        y: 192
+        x: 96
+        y: 736
         width: 32
         height: 32
       alignment: 0
@@ -3617,8 +4235,8 @@ TextureImporter:
       name: prop_tiles_136
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
+        x: 128
+        y: 736
         width: 32
         height: 32
       alignment: 0
@@ -3638,8 +4256,8 @@ TextureImporter:
       name: prop_tiles_137
       rect:
         serializedVersion: 2
-        x: 224
-        y: 192
+        x: 160
+        y: 736
         width: 32
         height: 32
       alignment: 0
@@ -3659,8 +4277,8 @@ TextureImporter:
       name: prop_tiles_138
       rect:
         serializedVersion: 2
-        x: 256
-        y: 192
+        x: 192
+        y: 736
         width: 32
         height: 32
       alignment: 0
@@ -3680,8 +4298,8 @@ TextureImporter:
       name: prop_tiles_139
       rect:
         serializedVersion: 2
-        x: 288
-        y: 192
+        x: 224
+        y: 736
         width: 32
         height: 32
       alignment: 0
@@ -3701,8 +4319,8 @@ TextureImporter:
       name: prop_tiles_140
       rect:
         serializedVersion: 2
-        x: 320
-        y: 192
+        x: 256
+        y: 736
         width: 32
         height: 32
       alignment: 0
@@ -3722,8 +4340,8 @@ TextureImporter:
       name: prop_tiles_141
       rect:
         serializedVersion: 2
-        x: 352
-        y: 192
+        x: 288
+        y: 736
         width: 32
         height: 32
       alignment: 0
@@ -3743,8 +4361,8 @@ TextureImporter:
       name: prop_tiles_142
       rect:
         serializedVersion: 2
-        x: 0
-        y: 160
+        x: 320
+        y: 736
         width: 32
         height: 32
       alignment: 0
@@ -3764,8 +4382,8 @@ TextureImporter:
       name: prop_tiles_143
       rect:
         serializedVersion: 2
-        x: 32
-        y: 160
+        x: 352
+        y: 736
         width: 32
         height: 32
       alignment: 0
@@ -3785,8 +4403,8 @@ TextureImporter:
       name: prop_tiles_144
       rect:
         serializedVersion: 2
-        x: 64
-        y: 160
+        x: 0
+        y: 704
         width: 32
         height: 32
       alignment: 0
@@ -3806,8 +4424,8 @@ TextureImporter:
       name: prop_tiles_145
       rect:
         serializedVersion: 2
-        x: 96
-        y: 160
+        x: 32
+        y: 704
         width: 32
         height: 32
       alignment: 0
@@ -3827,8 +4445,8 @@ TextureImporter:
       name: prop_tiles_146
       rect:
         serializedVersion: 2
-        x: 128
-        y: 160
+        x: 64
+        y: 704
         width: 32
         height: 32
       alignment: 0
@@ -3848,8 +4466,8 @@ TextureImporter:
       name: prop_tiles_147
       rect:
         serializedVersion: 2
-        x: 160
-        y: 160
+        x: 96
+        y: 704
         width: 32
         height: 32
       alignment: 0
@@ -3869,8 +4487,8 @@ TextureImporter:
       name: prop_tiles_148
       rect:
         serializedVersion: 2
-        x: 192
-        y: 160
+        x: 128
+        y: 704
         width: 32
         height: 32
       alignment: 0
@@ -3890,8 +4508,8 @@ TextureImporter:
       name: prop_tiles_149
       rect:
         serializedVersion: 2
-        x: 224
-        y: 160
+        x: 160
+        y: 704
         width: 32
         height: 32
       alignment: 0
@@ -3911,8 +4529,8 @@ TextureImporter:
       name: prop_tiles_150
       rect:
         serializedVersion: 2
-        x: 256
-        y: 160
+        x: 192
+        y: 704
         width: 32
         height: 32
       alignment: 0
@@ -3932,8 +4550,8 @@ TextureImporter:
       name: prop_tiles_151
       rect:
         serializedVersion: 2
-        x: 288
-        y: 160
+        x: 224
+        y: 704
         width: 32
         height: 32
       alignment: 0
@@ -3953,8 +4571,8 @@ TextureImporter:
       name: prop_tiles_152
       rect:
         serializedVersion: 2
-        x: 320
-        y: 160
+        x: 256
+        y: 704
         width: 32
         height: 32
       alignment: 0
@@ -3974,8 +4592,8 @@ TextureImporter:
       name: prop_tiles_153
       rect:
         serializedVersion: 2
-        x: 352
-        y: 160
+        x: 288
+        y: 704
         width: 32
         height: 32
       alignment: 0
@@ -3995,8 +4613,8 @@ TextureImporter:
       name: prop_tiles_154
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
+        x: 320
+        y: 704
         width: 32
         height: 32
       alignment: 0
@@ -4016,8 +4634,8 @@ TextureImporter:
       name: prop_tiles_155
       rect:
         serializedVersion: 2
-        x: 32
-        y: 128
+        x: 352
+        y: 704
         width: 32
         height: 32
       alignment: 0
@@ -4037,8 +4655,8 @@ TextureImporter:
       name: prop_tiles_156
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
+        x: 0
+        y: 672
         width: 32
         height: 32
       alignment: 0
@@ -4058,8 +4676,8 @@ TextureImporter:
       name: prop_tiles_157
       rect:
         serializedVersion: 2
-        x: 96
-        y: 128
+        x: 32
+        y: 672
         width: 32
         height: 32
       alignment: 0
@@ -4079,8 +4697,8 @@ TextureImporter:
       name: prop_tiles_158
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
+        x: 64
+        y: 672
         width: 32
         height: 32
       alignment: 0
@@ -4100,8 +4718,8 @@ TextureImporter:
       name: prop_tiles_159
       rect:
         serializedVersion: 2
-        x: 160
-        y: 128
+        x: 96
+        y: 672
         width: 32
         height: 32
       alignment: 0
@@ -4121,8 +4739,8 @@ TextureImporter:
       name: prop_tiles_160
       rect:
         serializedVersion: 2
-        x: 192
-        y: 128
+        x: 128
+        y: 672
         width: 32
         height: 32
       alignment: 0
@@ -4142,8 +4760,8 @@ TextureImporter:
       name: prop_tiles_161
       rect:
         serializedVersion: 2
-        x: 224
-        y: 128
+        x: 160
+        y: 672
         width: 32
         height: 32
       alignment: 0
@@ -4163,8 +4781,8 @@ TextureImporter:
       name: prop_tiles_162
       rect:
         serializedVersion: 2
-        x: 256
-        y: 128
+        x: 192
+        y: 672
         width: 32
         height: 32
       alignment: 0
@@ -4184,8 +4802,8 @@ TextureImporter:
       name: prop_tiles_163
       rect:
         serializedVersion: 2
-        x: 288
-        y: 128
+        x: 224
+        y: 672
         width: 32
         height: 32
       alignment: 0
@@ -4205,8 +4823,8 @@ TextureImporter:
       name: prop_tiles_164
       rect:
         serializedVersion: 2
-        x: 320
-        y: 128
+        x: 256
+        y: 672
         width: 32
         height: 32
       alignment: 0
@@ -4226,8 +4844,8 @@ TextureImporter:
       name: prop_tiles_165
       rect:
         serializedVersion: 2
-        x: 352
-        y: 128
+        x: 288
+        y: 672
         width: 32
         height: 32
       alignment: 0
@@ -4247,8 +4865,8 @@ TextureImporter:
       name: prop_tiles_166
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
+        x: 320
+        y: 672
         width: 32
         height: 32
       alignment: 0
@@ -4268,8 +4886,8 @@ TextureImporter:
       name: prop_tiles_167
       rect:
         serializedVersion: 2
-        x: 32
-        y: 96
+        x: 352
+        y: 672
         width: 32
         height: 32
       alignment: 0
@@ -4289,8 +4907,8 @@ TextureImporter:
       name: prop_tiles_168
       rect:
         serializedVersion: 2
-        x: 64
-        y: 96
+        x: 0
+        y: 640
         width: 32
         height: 32
       alignment: 0
@@ -4310,8 +4928,8 @@ TextureImporter:
       name: prop_tiles_169
       rect:
         serializedVersion: 2
-        x: 96
-        y: 96
+        x: 32
+        y: 640
         width: 32
         height: 32
       alignment: 0
@@ -4331,8 +4949,8 @@ TextureImporter:
       name: prop_tiles_170
       rect:
         serializedVersion: 2
-        x: 128
-        y: 96
+        x: 64
+        y: 640
         width: 32
         height: 32
       alignment: 0
@@ -4352,8 +4970,8 @@ TextureImporter:
       name: prop_tiles_171
       rect:
         serializedVersion: 2
-        x: 160
-        y: 96
+        x: 96
+        y: 640
         width: 32
         height: 32
       alignment: 0
@@ -4373,8 +4991,8 @@ TextureImporter:
       name: prop_tiles_172
       rect:
         serializedVersion: 2
-        x: 192
-        y: 96
+        x: 128
+        y: 640
         width: 32
         height: 32
       alignment: 0
@@ -4394,8 +5012,8 @@ TextureImporter:
       name: prop_tiles_173
       rect:
         serializedVersion: 2
-        x: 224
-        y: 96
+        x: 160
+        y: 640
         width: 32
         height: 32
       alignment: 0
@@ -4415,8 +5033,8 @@ TextureImporter:
       name: prop_tiles_174
       rect:
         serializedVersion: 2
-        x: 256
-        y: 96
+        x: 192
+        y: 640
         width: 32
         height: 32
       alignment: 0
@@ -4436,8 +5054,8 @@ TextureImporter:
       name: prop_tiles_175
       rect:
         serializedVersion: 2
-        x: 288
-        y: 96
+        x: 224
+        y: 640
         width: 32
         height: 32
       alignment: 0
@@ -4457,8 +5075,8 @@ TextureImporter:
       name: prop_tiles_176
       rect:
         serializedVersion: 2
-        x: 320
-        y: 96
+        x: 256
+        y: 640
         width: 32
         height: 32
       alignment: 0
@@ -4478,8 +5096,8 @@ TextureImporter:
       name: prop_tiles_177
       rect:
         serializedVersion: 2
-        x: 352
-        y: 96
+        x: 288
+        y: 640
         width: 32
         height: 32
       alignment: 0
@@ -4499,8 +5117,8 @@ TextureImporter:
       name: prop_tiles_178
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
+        x: 320
+        y: 640
         width: 32
         height: 32
       alignment: 0
@@ -4520,8 +5138,8 @@ TextureImporter:
       name: prop_tiles_179
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
+        x: 352
+        y: 640
         width: 32
         height: 32
       alignment: 0
@@ -4541,8 +5159,8 @@ TextureImporter:
       name: prop_tiles_180
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
+        x: 0
+        y: 608
         width: 32
         height: 32
       alignment: 0
@@ -4562,8 +5180,8 @@ TextureImporter:
       name: prop_tiles_181
       rect:
         serializedVersion: 2
-        x: 96
-        y: 64
+        x: 32
+        y: 608
         width: 32
         height: 32
       alignment: 0
@@ -4583,8 +5201,8 @@ TextureImporter:
       name: prop_tiles_182
       rect:
         serializedVersion: 2
-        x: 128
-        y: 64
+        x: 64
+        y: 608
         width: 32
         height: 32
       alignment: 0
@@ -4604,8 +5222,8 @@ TextureImporter:
       name: prop_tiles_183
       rect:
         serializedVersion: 2
-        x: 160
-        y: 64
+        x: 96
+        y: 608
         width: 32
         height: 32
       alignment: 0
@@ -4625,8 +5243,8 @@ TextureImporter:
       name: prop_tiles_184
       rect:
         serializedVersion: 2
-        x: 192
-        y: 64
+        x: 128
+        y: 608
         width: 32
         height: 32
       alignment: 0
@@ -4646,8 +5264,8 @@ TextureImporter:
       name: prop_tiles_185
       rect:
         serializedVersion: 2
-        x: 224
-        y: 64
+        x: 160
+        y: 608
         width: 32
         height: 32
       alignment: 0
@@ -4667,8 +5285,8 @@ TextureImporter:
       name: prop_tiles_186
       rect:
         serializedVersion: 2
-        x: 256
-        y: 64
+        x: 192
+        y: 608
         width: 32
         height: 32
       alignment: 0
@@ -4688,8 +5306,8 @@ TextureImporter:
       name: prop_tiles_187
       rect:
         serializedVersion: 2
-        x: 288
-        y: 64
+        x: 224
+        y: 608
         width: 32
         height: 32
       alignment: 0
@@ -4709,8 +5327,8 @@ TextureImporter:
       name: prop_tiles_188
       rect:
         serializedVersion: 2
-        x: 320
-        y: 64
+        x: 256
+        y: 608
         width: 32
         height: 32
       alignment: 0
@@ -4730,8 +5348,8 @@ TextureImporter:
       name: prop_tiles_189
       rect:
         serializedVersion: 2
-        x: 352
-        y: 64
+        x: 288
+        y: 608
         width: 32
         height: 32
       alignment: 0
@@ -4751,8 +5369,8 @@ TextureImporter:
       name: prop_tiles_190
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
+        x: 320
+        y: 608
         width: 32
         height: 32
       alignment: 0
@@ -4772,8 +5390,8 @@ TextureImporter:
       name: prop_tiles_191
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
+        x: 352
+        y: 608
         width: 32
         height: 32
       alignment: 0
@@ -4793,8 +5411,8 @@ TextureImporter:
       name: prop_tiles_192
       rect:
         serializedVersion: 2
-        x: 64
-        y: 32
+        x: 0
+        y: 576
         width: 32
         height: 32
       alignment: 0
@@ -4814,8 +5432,8 @@ TextureImporter:
       name: prop_tiles_193
       rect:
         serializedVersion: 2
-        x: 96
-        y: 32
+        x: 32
+        y: 576
         width: 32
         height: 32
       alignment: 0
@@ -4835,8 +5453,8 @@ TextureImporter:
       name: prop_tiles_194
       rect:
         serializedVersion: 2
-        x: 128
-        y: 32
+        x: 64
+        y: 576
         width: 32
         height: 32
       alignment: 0
@@ -4856,8 +5474,8 @@ TextureImporter:
       name: prop_tiles_195
       rect:
         serializedVersion: 2
-        x: 160
-        y: 32
+        x: 96
+        y: 576
         width: 32
         height: 32
       alignment: 0
@@ -4877,8 +5495,8 @@ TextureImporter:
       name: prop_tiles_196
       rect:
         serializedVersion: 2
-        x: 192
-        y: 32
+        x: 128
+        y: 576
         width: 32
         height: 32
       alignment: 0
@@ -4898,8 +5516,8 @@ TextureImporter:
       name: prop_tiles_197
       rect:
         serializedVersion: 2
-        x: 224
-        y: 32
+        x: 160
+        y: 576
         width: 32
         height: 32
       alignment: 0
@@ -4919,8 +5537,8 @@ TextureImporter:
       name: prop_tiles_198
       rect:
         serializedVersion: 2
-        x: 256
-        y: 32
+        x: 192
+        y: 576
         width: 32
         height: 32
       alignment: 0
@@ -4940,8 +5558,8 @@ TextureImporter:
       name: prop_tiles_199
       rect:
         serializedVersion: 2
-        x: 288
-        y: 32
+        x: 224
+        y: 576
         width: 32
         height: 32
       alignment: 0
@@ -4961,8 +5579,8 @@ TextureImporter:
       name: prop_tiles_200
       rect:
         serializedVersion: 2
-        x: 320
-        y: 32
+        x: 256
+        y: 576
         width: 32
         height: 32
       alignment: 0
@@ -4982,8 +5600,8 @@ TextureImporter:
       name: prop_tiles_201
       rect:
         serializedVersion: 2
-        x: 352
-        y: 32
+        x: 288
+        y: 576
         width: 32
         height: 32
       alignment: 0
@@ -5003,8 +5621,8 @@ TextureImporter:
       name: prop_tiles_202
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 320
+        y: 576
         width: 32
         height: 32
       alignment: 0
@@ -5024,8 +5642,8 @@ TextureImporter:
       name: prop_tiles_203
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
+        x: 352
+        y: 576
         width: 32
         height: 32
       alignment: 0
@@ -5045,8 +5663,8 @@ TextureImporter:
       name: prop_tiles_204
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
+        x: 0
+        y: 544
         width: 32
         height: 32
       alignment: 0
@@ -5066,8 +5684,8 @@ TextureImporter:
       name: prop_tiles_205
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
+        x: 32
+        y: 544
         width: 32
         height: 32
       alignment: 0
@@ -5087,8 +5705,8 @@ TextureImporter:
       name: prop_tiles_206
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
+        x: 64
+        y: 544
         width: 32
         height: 32
       alignment: 0
@@ -5108,8 +5726,8 @@ TextureImporter:
       name: prop_tiles_207
       rect:
         serializedVersion: 2
-        x: 160
-        y: 0
+        x: 96
+        y: 544
         width: 32
         height: 32
       alignment: 0
@@ -5129,8 +5747,8 @@ TextureImporter:
       name: prop_tiles_208
       rect:
         serializedVersion: 2
-        x: 192
-        y: 0
+        x: 128
+        y: 544
         width: 32
         height: 32
       alignment: 0
@@ -5150,8 +5768,8 @@ TextureImporter:
       name: prop_tiles_209
       rect:
         serializedVersion: 2
-        x: 224
-        y: 0
+        x: 160
+        y: 544
         width: 32
         height: 32
       alignment: 0
@@ -5171,8 +5789,8 @@ TextureImporter:
       name: prop_tiles_210
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
+        x: 192
+        y: 544
         width: 32
         height: 32
       alignment: 0
@@ -5192,8 +5810,8 @@ TextureImporter:
       name: prop_tiles_211
       rect:
         serializedVersion: 2
-        x: 288
-        y: 0
+        x: 224
+        y: 544
         width: 32
         height: 32
       alignment: 0
@@ -5213,8 +5831,8 @@ TextureImporter:
       name: prop_tiles_212
       rect:
         serializedVersion: 2
-        x: 320
-        y: 0
+        x: 256
+        y: 544
         width: 32
         height: 32
       alignment: 0
@@ -5234,8 +5852,8 @@ TextureImporter:
       name: prop_tiles_213
       rect:
         serializedVersion: 2
-        x: 352
-        y: 0
+        x: 288
+        y: 544
         width: 32
         height: 32
       alignment: 0
@@ -5247,6 +5865,4332 @@ TextureImporter:
       bones: []
       spriteID: b8057163287411b30800000000000000
       internalID: 4256261747420647563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_214
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde6caeb1a448e340800000000000000
+      internalID: 4893236456617438939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_215
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 544
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b068033307da7b4b0800000000000000
+      internalID: -5424676528737712629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_216
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4a4df4339430b10800000000000000
+      internalID: 1946479948685681912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_217
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af2b974af42f50c0800000000000000
+      internalID: -4584905238278099040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_218
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9755044e26a836f0800000000000000
+      internalID: -704630624043575393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_219
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a113038d1cea5d0800000000000000
+      internalID: -3049286763417626098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_220
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad27a15a92e6bc380800000000000000
+      internalID: -8949938709326040358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_221
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5648fb6af33d3ca10800000000000000
+      internalID: 1928617335778673765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_222
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd65dc0bb35db6a0800000000000000
+      internalID: -6431892629975896590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_223
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e5377dc7a777140800000000000000
+      internalID: 4717373811303079442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_224
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b436a142bf248c820800000000000000
+      internalID: 2938672403269182283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_225
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbc30809476389a0800000000000000
+      internalID: -6232023895985894470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_226
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de378ad7793610280800000000000000
+      internalID: -9078865871502806035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_227
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108613f1f27beea60800000000000000
+      internalID: 7705297425492174849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_228
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1761409f604b12a80800000000000000
+      internalID: -8493309480203446671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_229
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6b557d6fd94de00800000000000000
+      internalID: 1068652695093884660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_230
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45e654d727927a50800000000000000
+      internalID: 6517437808080512332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_231
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921283d45170d0d80800000000000000
+      internalID: -8282956351593242327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_232
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e20af4cc3544c10800000000000000
+      internalID: 2036845068452638287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_233
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0139b515b84a0e240800000000000000
+      internalID: 4819032519558796048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_234
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec04a4a4654daa380800000000000000
+      internalID: -8959115041621524274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_235
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c745e529cf49fd50800000000000000
+      internalID: 6771531240071055301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_236
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3de6c731a42b070800000000000000
+      internalID: 8120634525654897618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_237
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220d336c732e05d90800000000000000
+      internalID: -7110935082441650142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_238
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed11a423957431ab0800000000000000
+      internalID: -5038605109676076578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_239
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239981c3c7e099680800000000000000
+      internalID: -8747944874443499214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae28d6b2f6b98f390800000000000000
+      internalID: -7784301054137629974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_241
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ac0210502b779c0800000000000000
+      internalID: -3929476415293961578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_242
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edef0c3757d2427b0800000000000000
+      internalID: -5250021283130704162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_243
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ca26aec03571600800000000000000
+      internalID: 438910803628960772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_244
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed107b0d18130b9d0800000000000000
+      internalID: -2760652137955917346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_245
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7bceeda85b9dc1e0800000000000000
+      internalID: -2175912239772546181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_246
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e08312e535df8240800000000000000
+      internalID: 4796286555575779560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_247
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f52c3214a0684f60800000000000000
+      internalID: 8018765394330002932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_248
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30904f7d63ba9d1a0800000000000000
+      internalID: -6784203111617263357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_249
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8832e3c83b1129ff0800000000000000
+      internalID: -30942784588471416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_250
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1ca28508743ecf0800000000000000
+      internalID: -224256939877809726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_251
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193292347a5989fc0800000000000000
+      internalID: -3487873365779602543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_252
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4ef4a7d3c8d11d0800000000000000
+      internalID: -3378389949785053986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_253
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c080bbf95094a6670800000000000000
+      internalID: 8532712732510324748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_254
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7466b2f104ecc61c0800000000000000
+      internalID: -4509002352108542393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_255
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d231be6d5d072610800000000000000
+      internalID: 1596259287866356439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_256
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229b56b92c2c57fa0800000000000000
+      internalID: -5803518403710437086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_257
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcab0929808778970800000000000000
+      internalID: 8757099978659248847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_258
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433f5dc524854bbd0800000000000000
+      internalID: -2615368441546804428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_259
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f45b0c9b5be81b00800000000000000
+      internalID: 799647712550802679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_260
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f105796d5d17a3c30800000000000000
+      internalID: 4339906354167107615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_261
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c7218bfe5bc9f60800000000000000
+      internalID: 8042503075766893587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_262
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafeac38736b4a5a0800000000000000
+      internalID: -6510878811720323154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_263
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b018512a2cbfc640800000000000000
+      internalID: 5102503791968129205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_264
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6a14c8a5a8a2c70800000000000000
+      internalID: 8947115731229714172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_265
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05553d2763c9ce290800000000000000
+      internalID: -7859735491999738544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_266
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab1999b536b60e50800000000000000
+      internalID: 6775303031288830885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_267
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4a11da52177a700800000000000000
+      internalID: 551533886007518442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_268
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afad767c1b65efcd0800000000000000
+      internalID: -2522483419726226694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_269
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b343d6bbf769aff0800000000000000
+      internalID: -24373992172076110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_270
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d84f19aeb3cddc0800000000000000
+      internalID: -3612946922400871021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_271
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9662036c60615660800000000000000
+      internalID: 7372780083616048797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_272
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead15f64b19e89b40800000000000000
+      internalID: 5447360052668472750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_273
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89abb94184c1e480800000000000000
+      internalID: -8871593731376305782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_274
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aae4de7aa21dd2b0800000000000000
+      internalID: -5558265841623700825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_275
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3ffe90893e795e0800000000000000
+      internalID: -1902802075399490628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_276
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af9cc4187272ea30800000000000000
+      internalID: 4243079659007025058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_277
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d36967245e32b20800000000000000
+      internalID: 3108580241435933993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_278
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0bb166514661f60800000000000000
+      internalID: 8004695430767816929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_279
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14a09fb1199837d0800000000000000
+      internalID: -2938430455351827425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_280
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1106dab7d980aa570800000000000000
+      internalID: 8478598720956227601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_281
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7082f7b411738e370800000000000000
+      internalID: 8351986056379181063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_282
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded69207a4ab918e0800000000000000
+      internalID: -1722140553620394515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_283
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633bb6a6010c44880800000000000000
+      internalID: -8627559809397574858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_284
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f83c075ae29fe8c0800000000000000
+      internalID: -3967791211509696269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_285
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a630b80abc4bb77f0800000000000000
+      internalID: -613698137541115030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_286
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0fc73c2a9dc2f20800000000000000
+      internalID: 3399331111845556440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_287
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3022d683475cf5690800000000000000
+      internalID: -7611147742279294461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_288
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8157a33d48b7360800000000000000
+      internalID: 7168469274643994807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_289
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e42fa214c0a7820800000000000000
+      internalID: 2916657182708747803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_290
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0050243154e776ca0800000000000000
+      internalID: -6023707141443812096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_291
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafc33283a427f3f0800000000000000
+      internalID: -867184118562828373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_292
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89019e57c6daf470800000000000000
+      internalID: 8429285804350704010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_293
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124bcf05f0419df50800000000000000
+      internalID: 6906573559565169697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_294
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14aa21da98e023720800000000000000
+      internalID: 2824335900791712321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_295
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94947879618436eb0800000000000000
+      internalID: -4727855921940182711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_296
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c510a83705a463f0800000000000000
+      internalID: -908419774388628024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_297
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5dc85b5ef836ae0800000000000000
+      internalID: -1557242829383871010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_298
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f85d5de8a14a9150800000000000000
+      internalID: 5880084457278232822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_299
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc5d5d1b6fc6ebc0800000000000000
+      internalID: -3754085180405621566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_300
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f238221b8fce187d0800000000000000
+      internalID: -2917790530691497169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_301
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd6b2e8fb932a8f0800000000000000
+      internalID: -530798311189549616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_302
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d840d2232697641f0800000000000000
+      internalID: -1061027199543606131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_303
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39b867d23eee7bc0800000000000000
+      internalID: -3783324734814897859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_304
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9795145cb4fda11f0800000000000000
+      internalID: -1073300044649506439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_305
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1e386e7bab39200800000000000000
+      internalID: 185697308661506545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_306
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b81b8466c5691210800000000000000
+      internalID: 1304185469865236659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_307
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee1b2905952a4290800000000000000
+      internalID: -7905464873861308692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_308
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab53e44b1ed108150800000000000000
+      internalID: 5872726769320998330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_309
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c69277ff5c95cf30800000000000000
+      internalID: 4595250930788767427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_310
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b64ed8d4c0d3c3a0800000000000000
+      internalID: -6646239081198106960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_311
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0fe2c28082790920800000000000000
+      internalID: 2957020526620634892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_312
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536c351b337c9ba70800000000000000
+      internalID: 8843318368150996533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_313
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac13416ee6d7b1400800000000000000
+      internalID: 295968115782857162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_314
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e1e879469392ab0800000000000000
+      internalID: -5032428004407632344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_315
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f5003c83a017080800000000000000
+      internalID: -9191554125580443810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_316
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ffe602425765020800000000000000
+      internalID: 2330178655234228095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_317
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f54124bfc335e380800000000000000
+      internalID: -8942684517900925450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_318
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44631ddf77d676b50800000000000000
+      internalID: 6586353342179522116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_319
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e4d05cd56a54fa0800000000000000
+      internalID: -5817060422010974565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_320
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389290c3e837cbe00800000000000000
+      internalID: 1061850666882378115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_321
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b8715bee73a0b60800000000000000
+      internalID: 7713038810205358909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_322
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949f6050a93b9bd90800000000000000
+      internalID: -7081431464972715703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_323
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6589c23a9c8f70020800000000000000
+      internalID: 2308086878960392278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_324
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9174a29d3f1498b10800000000000000
+      internalID: 1984189626409699097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_325
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966ba615e7a49bf90800000000000000
+      internalID: -6937431844595255703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_326
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4278984ec2cff20800000000000000
+      internalID: 3457687973985199319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_327
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ad1a562300e0ba0800000000000000
+      internalID: -6120954627096454637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_328
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d4db366f1a9f220800000000000000
+      internalID: 2520223546097880435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_329
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1996f74094587a0800000000000000
+      internalID: -6375609413806747202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_330
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c1588c0d9f27090800000000000000
+      internalID: -8038087709790233473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_331
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5c0c1c63d61c2c0800000000000000
+      internalID: -4413126077900077619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_332
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b436fe7c371126f0800000000000000
+      internalID: -711261717552286535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_333
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5a1bb996b124a90800000000000000
+      internalID: -7331267103008119337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_334
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d0e8e8c7d222540800000000000000
+      internalID: 4981594150816058624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_335
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccf614cc63ed8b90800000000000000
+      internalID: -7237878969828705084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_336
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2812cc93be62720800000000000000
+      internalID: 2821200850064605910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_337
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b66b77d9a4b63d0800000000000000
+      internalID: -3212391869019952293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_338
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4132c5933b63f9780800000000000000
+      internalID: -8674154213902900460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_339
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7096ba9e9330d70800000000000000
+      internalID: 9008107355437074372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_340
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa82e103086e5c70800000000000000
+      internalID: 8961714670639680163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_341
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa9d6a793303bff0800000000000000
+      internalID: -21670027804697861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_342
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22e30d4a6c91f2a0800000000000000
+      internalID: -6705406389805391318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_343
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11a3669f69fe8a70800000000000000
+      internalID: 8831270176979919133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_344
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097da8d6d43df0510800000000000000
+      internalID: 1517663928950904720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_345
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30e9af0a35401250800000000000000
+      internalID: 5913302426410672190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_346
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18639d8f8e3edb50800000000000000
+      internalID: 6619797288557701151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_347
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de13ed210ec938cc0800000000000000
+      internalID: -3709949181819997715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_348
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e9df654b6ab4380800000000000000
+      internalID: -8985905338003907067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_349
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7140c6dd4c43a8f30800000000000000
+      internalID: 4578529991308608535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_350
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed05e1d13ac0935e0800000000000000
+      internalID: -1929497070643818274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_351
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25696d01ad212290800000000000000
+      internalID: -7916996500202625749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_352
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fcd6c9119620a70800000000000000
+      internalID: 8791704946940432187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_353
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99416aa80f269f170800000000000000
+      internalID: 8212704180744623257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_354
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cfbf795d7eba1940800000000000000
+      internalID: 5267732159744950209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_355
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8099bc61e6c20b550800000000000000
+      internalID: 6174483940465416456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_356
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48fb1d5a08a9dcc0800000000000000
+      internalID: -3685730057560786866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_357
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ea994eadc746d20800000000000000
+      internalID: 3270876508957814309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_358
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c461c0a22ebf9b650800000000000000
+      internalID: 6249302906739889740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_359
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7739b1028f0c9f070800000000000000
+      internalID: 8140749973371982711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_360
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68fe8574acc5b1cd0800000000000000
+      internalID: -2586371537144057978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_361
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf94174cb2e28ce60800000000000000
+      internalID: 7982681105028434427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_362
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5140167f71f81a80800000000000000
+      internalID: -8495775167290523302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_363
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d041a8a9523cb9150800000000000000
+      internalID: 5880508304736261133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_364
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737e5a8ecc5d8c020800000000000000
+      internalID: 2362373080609056567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_365
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8b5b249c4a2bd20800000000000000
+      internalID: 3292875461875841221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_366
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261c6a53f23682e00800000000000000
+      internalID: 1020174370014151010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_367
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d7c00b8e846bd90800000000000000
+      internalID: -7082393199770305200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_368
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d481c7a074383940800000000000000
+      internalID: 5276024621919995093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_369
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844fe80b62096cf70800000000000000
+      internalID: 9207204984050873416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_370
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2864da8f9dc430e0800000000000000
+      internalID: -2290980225312069586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_371
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fb343ef355ca0b0800000000000000
+      internalID: -5716100094155833593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_372
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f9a335a798433f0800000000000000
+      internalID: -921960865228742830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_373
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056369074c728a1b0800000000000000
+      internalID: -5645218408252950960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_374
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bbdc185b1b70de0800000000000000
+      internalID: -1366928568758715599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_375
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb7ba2d941394c00800000000000000
+      internalID: 885292994891840435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_376
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202230a4fc77524f0800000000000000
+      internalID: -854144822133186046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_377
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f34324d4cf38f20800000000000000
+      internalID: 3423857550485110658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_378
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20617d077e74ecc0800000000000000
+      internalID: -3682679545490481105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_379
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7c2d5f64d39ad40800000000000000
+      internalID: 5596071386965788648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_380
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af324f3ad46c9ca0800000000000000
+      internalID: -6008816914292129882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_381
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec8851b74575d760800000000000000
+      internalID: 7482015306724445419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_382
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2c590a25e2408a0800000000000000
+      internalID: -6339891443014450452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_383
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7082d71cddaa1f320800000000000000
+      internalID: 2590039130125445127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_384
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8a48f4df1ecdf30800000000000000
+      internalID: 4601801397342873828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_385
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712e21f147f750360800000000000000
+      internalID: 7135249321352684055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_386
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698ec02602e8eb7b0800000000000000
+      internalID: -5206567849458603882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_387
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6584d7ccc8ce29220800000000000000
+      internalID: 2491313633359644758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_388
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adbbdec3f9635440800000000000000
+      internalID: 4923395313514560930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_389
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68443bbbe5235520800000000000000
+      internalID: 2689535096858626158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_390
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc7095f89ea26d70800000000000000
+      internalID: 9034975774436785340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_391
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c19fb3e4de840120800000000000000
+      internalID: 2379183548163658185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_392
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34018eb1fdea6520800000000000000
+      internalID: 2696228949473690686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_393
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578b2c6997bd54460800000000000000
+      internalID: 7225422492452698229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_394
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f6cb0242390e0d0800000000000000
+      internalID: -3395552335660028042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_395
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8335c354be12f30800000000000000
+      internalID: 4549175781218269372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_396
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27ca7093d94da890800000000000000
+      internalID: -7445213435962669270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_397
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013de2ff94ff3a530800000000000000
+      internalID: 3865213598492971792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_398
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749483355dcfed960800000000000000
+      internalID: 7628812811966630215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_399
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f3f749a2f796470800000000000000
+      internalID: 8388375601810980678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_400
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8051a1732e5bc23b0800000000000000
+      internalID: -5535849858753489656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_401
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62dc8fd02607f63d0800000000000000
+      internalID: -3211224442848359130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_402
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabc91e78f571b0d0800000000000000
+      internalID: -3408813732814795859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_403
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7733565f114462d10800000000000000
+      internalID: 2100441120137098103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_404
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86612b41acb2e5520800000000000000
+      internalID: 2692637774144738920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_405
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d4f4a2f0bb038e0800000000000000
+      internalID: -1715665784219415242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_406
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4cddf3f8af7dd20800000000000000
+      internalID: 3303384344858313938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_407
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20695ddd4a6655540800000000000000
+      internalID: 4996012219919865346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_408
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064a188453f959bb0800000000000000
+      internalID: -4929859165888600992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_409
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31d25125ec2d58a0800000000000000
+      internalID: -6314841739885358789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_410
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59fd5bfeecd012a0800000000000000
+      internalID: -6768667320960288417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_411
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438a1f2ad80169f50800000000000000
+      internalID: 6887710880619931700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_412
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4925d06bcb5acdab0800000000000000
+      internalID: -4981924857851850092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_413
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93763e2f3cea9730800000000000000
+      internalID: 4006774574601892763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_414
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e67824a3621fea20800000000000000
+      internalID: 3093711688191997672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_415
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857e02db7a7e1a850800000000000000
+      internalID: 6386640454206678872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_416
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e69a3e65c90a4260800000000000000
+      internalID: 7082484107556067045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_417
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be75eba08532285e0800000000000000
+      internalID: -1908924431007328277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_418
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc05f03fb5a5cfc90800000000000000
+      internalID: -7134728358695317300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_tiles_419
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf394a0bcfa13ff40800000000000000
+      internalID: 5760978020934652924
       vertices: []
       indices: 
       edges: []

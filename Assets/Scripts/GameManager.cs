@@ -39,7 +39,7 @@ namespace DefaultNamespace
         public GameObject servedUi;
         public GameObject gameOverUi;
 
-        public TextMeshProUGUI gameTimer;
+        public TMPSpriteFont gameTimer;
         public TextMeshProUGUI deliveryTimer;
         public PlayerInput player;
         public DeliveryArrow arrow;

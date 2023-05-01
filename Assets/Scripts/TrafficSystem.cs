@@ -18,6 +18,8 @@ namespace DefaultNamespace
         }
 
         public RoadDirection direction;
+        public int preloadedCardsMinAmount = 4;
+        public int preloadedCardsMaxAmount = 10;
         public List< PoolManager > carPools;
         private List<TrafficNode> m_nodes;
 
@@ -28,6 +30,23 @@ namespace DefaultNamespace
             for (var i = 0; i < m_nodes.Count; i++)
             {
                 m_nodes[i].SetSystem(this);
+            }
+        }
+
+        private void Start()
+        {
+            var carsToPreloadWith = Random.Range(preloadedCardsMinAmount, preloadedCardsMaxAmount);
+
+            Debug.Log(m_nodes.Count);
+
+            for (var i = 0; i < carsToPreloadWith; i++)
+            {
+                var randomIndex = Random.Range(1, m_nodes.Count - 1);
+                var randomFlowNode = GetNode(randomIndex);
+                var position = randomFlowNode.transform.position;
+                position -= (Vector3)GetDirection() * Random.Range(0, 64);
+                var car = GetCar(position, Quaternion.identity);
+                car.SetSystem(this, randomIndex);
             }
         }
 

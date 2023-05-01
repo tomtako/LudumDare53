@@ -6,9 +6,9 @@ namespace DefaultNamespace
 {
     public class TrafficIntersection : MonoBehaviour
     {
-        public float minTimeToSwitch;
-        public float maxTimeToSwitch;
-        public float switchPauseDelay;
+        public float minTimeToSwitch=2;
+        public float maxTimeToSwitch=5;
+        public float switchPauseDelay=2;
 
         public TrafficNode[] horizontalNodes;
         public TrafficNode[] verticalNodes;

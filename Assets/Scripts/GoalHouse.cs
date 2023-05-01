@@ -49,6 +49,7 @@ namespace DefaultNamespace
 
         public void OnBreak()
         {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/brokenGlass");
             // server papers!
             animator.SetFrame("animations", 1);
             ResetHouse();

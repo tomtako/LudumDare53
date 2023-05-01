@@ -54,6 +54,11 @@ namespace DefaultNamespace
 
         public GameState m_currentGameState;
 
+        //audio stuff
+
+        private FMOD.Studio.EventInstance bgMusic;
+        private bool bgMusicSwitch = true;
+
         private void Awake()
         {
             Instance = this;
@@ -69,6 +74,12 @@ namespace DefaultNamespace
             timesUpUi.OnContinue += OnTimesUpContinued;
 
             NewDelivery();
+
+        }
+
+        private void Start()
+        {
+            bgMusic = FMODUnity.RuntimeManager.CreateInstance("event:/Music/gameplayMusic");
         }
 
         private void OnTimesUpContinued()
@@ -86,6 +97,12 @@ namespace DefaultNamespace
         {
             if (m_currentGameState == GameState.Gameplay)
             {
+                if (bgMusicSwitch)
+                {
+                    bgMusic.start();
+                    bgMusicSwitch = false;
+                }
+
                 m_currentMoney =
                     Mathf.MoveTowards(m_currentMoney, m_targetMoney, moneyDisplayAddSpeed * Time.deltaTime);
                 moneyLabel.text =
@@ -112,6 +129,7 @@ namespace DefaultNamespace
                 if (m_currentGameTime <= 0)
                 {
                     GameOver();
+                    bgMusicSwitch = true;
                 }
             }
         }

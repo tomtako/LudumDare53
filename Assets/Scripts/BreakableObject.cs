@@ -17,6 +17,7 @@ namespace DefaultNamespace
         public float width = 0;
         public float height = 0;
         public SpriteRenderer spriteRenderer;
+        public BoxCollider2D collider2d;
         public List<Particle> particlePrefabs;
 
         public void OnHit(CarController carController)
@@ -32,6 +33,9 @@ namespace DefaultNamespace
                     break;
             }
 
+            spriteRenderer.enabled = false;
+            collider2d.enabled = false;
+
             for (var i = 0; i < particlesSpawnedWhenDestroyed; i++)
             {
                 var direction = Random.insideUnitCircle;
@@ -40,10 +44,9 @@ namespace DefaultNamespace
                 positionOffset += new Vector3(Random.Range(-width, width), Random.Range(-height, height));
                 var particle = Instantiate(particlePrefabs[Random.Range(0, particlePrefabs.Count)],
                     transform.position + positionOffset, Quaternion.identity);
+                particle.transform.SetParent(transform);
                 particle.SetDirection(direction);
             }
-
-            gameObject.SetActive(false);
         }
     }
 }

@@ -41,8 +41,6 @@ namespace DefaultNamespace
             ApplyEngineForce();
             UpdateOrthogonalVelocity();
             ApplySteering();
-
-            Debug.Log(m_rigidBody.velocity.magnitude);
         }
 
         private void ApplyEngineForce()

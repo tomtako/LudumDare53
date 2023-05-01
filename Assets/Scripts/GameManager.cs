@@ -101,8 +101,6 @@ namespace DefaultNamespace
             }
 
             m_houses.Shuffle();
-            NewDelivery();
-
             bgMusic = FMODUnity.RuntimeManager.CreateInstance("event:/Music/gameplayMusic");
         }
 
@@ -291,11 +289,10 @@ namespace DefaultNamespace
         {
             if (m_currentGameState != state)
             {
-                // if (state == GameState.Gameplay)
-                // {
-                //     SceneManager.LoadScene(gameScene);
-                //     return;
-                // }
+                if (state == GameState.Gameplay)
+                {
+                    NewDelivery();
+                }
 
                 if (state == GameState.TimesUp)
                 {

@@ -83,6 +83,7 @@ namespace DefaultNamespace
 
                 if (animator.transform.localPosition.y <= 0)
                 {
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/carScraps", gameObject.transform.position);
                     animator.transform.localPosition = Vector3.zero;
                     m_pool.Dispose(this);
                 }
@@ -180,6 +181,7 @@ namespace DefaultNamespace
             animator.Play("damaged");
             animator.renderer.sortingLayerName = "Effects";
             damageShadow.SetActive(true);
+            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/carExplosion", gameObject.transform.position);
         }
     }
 }

@@ -1,5 +1,8 @@
 using System;
+using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace DefaultNamespace
 {
@@ -9,11 +12,14 @@ namespace DefaultNamespace
         public SpriteRenderer overlay;
         public Transform arrows;
         public GameObject collision;
+        public Particle glassParticlePrefab;
+        private List<Particle> glassParticles;
 
         public bool m_isGoalHouse;
 
         private void Awake()
         {
+            glassParticles = new List<Particle>();
             animator.SetFrame("animations", 0);
             ResetHouse();
         }
@@ -31,6 +37,12 @@ namespace DefaultNamespace
             m_isGoalHouse = true;
             arrows.SetActive(true);
             collision.SetActive(false);
+            animator.SetFrame("animations", 0);
+
+            for (var i = 0; i < glassParticles.Count; i++)
+            {
+                Destroy(glassParticles[i]);
+            }
         }
 
         public bool IsGoalHouse()
@@ -49,6 +61,16 @@ namespace DefaultNamespace
 
         public void OnBreak()
         {
+            for (var i = 0; i < 30; i++)
+            {
+                var randomOffset = new Vector3(Random.Range(-2f, 2f), Random.Range(-1f, 1f));
+                var pos = transform.position + randomOffset;
+                var glass = Instantiate(glassParticlePrefab, pos, Quaternion.identity);
+                glass.SetDirection( Vector2.down );
+                glass.transform.SetParent(transform);
+                glassParticles.Add(glass);
+            }
+
             FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/brokenGlass");
             // server papers!
             animator.SetFrame("animations", 1);

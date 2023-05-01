@@ -51,6 +51,7 @@ MonoBehaviour:
   overlay: {fileID: 1184888498649120308}
   arrows: {fileID: 1184888498075211623}
   collision: {fileID: 1184888499343105244}
+  glassParticlePrefab: {fileID: 4856746145562394315, guid: f127a313292e74b6abf9ba10b827c5e0, type: 3}
   m_isGoalHouse: 0
 --- !u!1 &1184888498005591084
 GameObject:

@@ -61,6 +61,7 @@ namespace DefaultNamespace
 
         private FMOD.Studio.EventInstance bgMusic;
         private bool bgMusicSwitch = true;
+        private FMOD.Studio.EventInstance ambientAudio;
 
         private void Awake()
         {
@@ -77,6 +78,10 @@ namespace DefaultNamespace
             timesUpUi.OnContinue += OnTimesUpContinued;
 
             NewDelivery();
+
+            ambientAudio = FMODUnity.RuntimeManager.CreateInstance("event:/Ambient/ambient");
+            ambientAudio.start();
+
         }
 
         private void Start()

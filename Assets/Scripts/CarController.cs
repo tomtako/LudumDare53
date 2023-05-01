@@ -30,9 +30,18 @@ namespace DefaultNamespace
 
         public Rigidbody2D rb => m_rigidBody;
 
+        private FMOD.Studio.EventInstance playerRun;
+
         private void Awake()
         {
             m_rigidBody = GetComponent<Rigidbody2D>();
+        }
+
+        private void Start()
+        {
+            playerRun = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/player");
+            playerRun.setParameterByName("playerRun", 0);
+            playerRun.start();
         }
 
         private void FixedUpdate()
@@ -41,6 +50,15 @@ namespace DefaultNamespace
             ApplyEngineForce();
             UpdateOrthogonalVelocity();
             ApplySteering();
+
+            if (m_rigidBody.velocity.sqrMagnitude > 30f)
+            {
+                playerRun.setParameterByName("playerRun", 1);
+            }
+            else
+            {
+                playerRun.setParameterByName("playerRun", 0);
+            }
         }
 
         private void ApplyEngineForce()

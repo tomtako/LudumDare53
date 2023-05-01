@@ -57,6 +57,7 @@ namespace DefaultNamespace
             escapedStamp.SetActive(true);
             escapedStamp.transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
             escapedStamp.transform.DOScale(1, 0.5f).SetEase(Ease.OutElastic);
+            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/escaped");
         }
 
         private void Update()

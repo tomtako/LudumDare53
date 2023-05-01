@@ -32,6 +32,7 @@ namespace DefaultNamespace
             m_renderer.renderer.enabled = false;
             m_bloodAnimator.SetActive(true);
             m_bloodAnimator.SetFrame("anims", Random.Range(0, m_bloodAnimator.GetFrameCount()));
+            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/hitBlood");
         }
 
         private void Update()

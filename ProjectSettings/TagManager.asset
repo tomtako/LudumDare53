@@ -16,7 +16,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Buildings
   - 
   - 
   - 
@@ -51,4 +51,13 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 637380425
+    locked: 0
+  - name: Player
+    uniqueID: 4095131683
+    locked: 0
+  - name: Boundaries
+    uniqueID: 4102896181
+    locked: 0
+  - name: Overpass
+    uniqueID: 2142846061
     locked: 0

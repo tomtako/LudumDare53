@@ -129,7 +129,9 @@ namespace DefaultNamespace
                 if (m_currentGameTime <= 0)
                 {
                     GameOver();
+                    bgMusic.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
                     bgMusicSwitch = true;
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/Music/gameOver");
                 }
             }
         }

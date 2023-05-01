@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34404cb99b59bb543805a55e3c469d61, type: 3}
+  m_Name: townspeople
+  m_EditorClassIdentifier: 
+  editorConfirmations: 1
+  animations:
+  - speedRatio: 1
+    loop: 1
+    frameToLoop: 0
+    frameDatas:
+    - sprite: {fileID: 592462427808555180, guid: 834aa9aef97092b4cba833080e852643, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 1250675617531979367, guid: 834aa9aef97092b4cba833080e852643, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 9040183594459352015, guid: 834aa9aef97092b4cba833080e852643, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 4060546754927769693, guid: 834aa9aef97092b4cba833080e852643, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 9116800094053212082, guid: 834aa9aef97092b4cba833080e852643, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 2664463848024648546, guid: 834aa9aef97092b4cba833080e852643, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: -207400571034493733, guid: 834aa9aef97092b4cba833080e852643, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 442289389292784220, guid: 834aa9aef97092b4cba833080e852643, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: -3167014298455418160, guid: 834aa9aef97092b4cba833080e852643, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 8220240392134198877, guid: 834aa9aef97092b4cba833080e852643, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 772119013663571619, guid: 834aa9aef97092b4cba833080e852643, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: -5941446244133730559, guid: 834aa9aef97092b4cba833080e852643, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 1116882527512873024, guid: 834aa9aef97092b4cba833080e852643, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 6475625572501995688, guid: 834aa9aef97092b4cba833080e852643, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 5566578978154559516, guid: 834aa9aef97092b4cba833080e852643, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    - sprite: {fileID: 4177021724190405320, guid: 834aa9aef97092b4cba833080e852643, type: 3}
+      time: 0.04
+      eventEnabled: 0
+      eventName: 
+    name: anims
+    selectedIndex: 0
+    newFramesTime: 0.05
+    setFramesTime: 0.1

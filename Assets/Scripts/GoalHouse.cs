@@ -11,7 +11,6 @@ namespace DefaultNamespace
         public GameObject collision;
 
         public bool m_isGoalHouse;
-        private float counter = 0;
 
         private void Awake()
         {
@@ -43,9 +42,8 @@ namespace DefaultNamespace
         {
             if (m_isGoalHouse)
             {
-                counter += Time.deltaTime * 5f;
-                overlay.color = new Color(1, 1, 1, Mathf.PingPong(.5f, Time.time));
-                arrows.localPosition = new Vector3(0, Mathf.PingPong(.16f, Time.time));
+                overlay.color = new Color(1, 1, 1, Mathf.PingPong(.5f, Time.time+1));
+                arrows.localPosition = new Vector3(0, Mathf.PingPong(.16f, Time.time+1));
             }
         }
 

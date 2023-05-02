@@ -21,7 +21,7 @@ namespace DefaultNamespace
 
         public static GameManager Instance;
         public string gameScene = "Testing";
-        public int maxGameTime = 100;
+        public int startingGameTime = 100;
         public float minimumDistanceBetweenDeliveries;
         public float moneyDisplayAddSpeed = 5;
         public float moneyGainedFromHittingAPedestrian = .5f;
@@ -77,7 +77,7 @@ namespace DefaultNamespace
         {
             Instance = this;
 
-            m_currentGameTime = maxGameTime;
+            m_currentGameTime = startingGameTime;
             m_currentGameState = GameState.Title;
 
             m_menus = new List<GameObject>();
@@ -189,8 +189,13 @@ namespace DefaultNamespace
                         gameHud.OnEscaped();
                     }
 
+                    // Deactivate current goal house
+                    // var expired = true
+
                     NewDelivery();
                 }
+
+                Debug.Log(m_houses.Count);
 
                 deliveryTimerShadow.text = deliveryTimer.text;
             }

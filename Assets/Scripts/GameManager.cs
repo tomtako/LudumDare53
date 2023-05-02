@@ -41,6 +41,7 @@ namespace DefaultNamespace
 
         public TMPSpriteFont gameTimer;
         public TextMeshProUGUI deliveryTimer;
+        public TextMeshProUGUI deliveryTimerShadow;
         public PlayerInput player;
         public DeliveryArrow arrow;
         public TextMeshProUGUI moneyLabel;
@@ -189,6 +190,8 @@ namespace DefaultNamespace
 
                     NewDelivery();
                 }
+
+                deliveryTimerShadow.text = deliveryTimer.text;
             }
         }
 
@@ -247,9 +250,10 @@ namespace DefaultNamespace
                 return;
             }
 
+            var currentHouse = m_houses[m_currentDeliveryHouse];
             var lastHouse = m_houses[m_currentDeliveryHouse];
 
-            while (Vector2.Distance(lastHouse.position, player.transform.position) < minimumDistanceBetweenDeliveries)
+            while (Vector2.Distance(lastHouse.position, currentHouse.position) < minimumDistanceBetweenDeliveries)
             {
                 var x = Random.Range(-256, 256);
                 var y = Random.Range(-256, 256);

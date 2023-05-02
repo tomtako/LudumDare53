@@ -29,6 +29,9 @@ TextureImporter:
   - first:
       213: -6285272122175300203
     second: numbers_32x32_8
+  - first:
+      213: -5085730441697267305
+    second: numbers_32x32_9
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -327,6 +330,27 @@ TextureImporter:
       bones: []
       spriteID: 59d53114e4a36c8a0800000000000000
       internalID: -6285272122175300203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numbers_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7917e3fcb1bdb69b0800000000000000
+      internalID: -5085730441697267305
       vertices: []
       indices: 
       edges: []

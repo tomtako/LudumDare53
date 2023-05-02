@@ -27,7 +27,7 @@ namespace DefaultNamespace
 
         private void Update()
         {
-            if (Vector2.Distance(animator.transform.localPosition, Vector2.zero) > 0.01f)
+            if (animator.transform.localPosition.y > 0)
             {
                 m_velocity += gravity * Time.deltaTime;
                 animator.transform.localPosition += Vector3.up * m_velocity * Time.deltaTime;
@@ -36,6 +36,11 @@ namespace DefaultNamespace
                 {
                     animator.transform.localPosition = Vector2.zero;
                 }
+            }
+
+            if (animator.transform.localPosition.y < 0)
+            {
+                animator.transform.localPosition = Vector2.zero;
             }
 
             if (m_momentum > 0)

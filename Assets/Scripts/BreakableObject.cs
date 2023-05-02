@@ -19,6 +19,7 @@ namespace DefaultNamespace
         public SpriteRenderer spriteRenderer;
         public BoxCollider2D collider2d;
         public List<Particle> particlePrefabs;
+        public List<GameObject> disabledObjects;
 
         public void OnHit(CarController carController)
         {
@@ -38,6 +39,11 @@ namespace DefaultNamespace
 
             spriteRenderer.enabled = false;
             collider2d.enabled = false;
+
+            for (var i = 0; i < disabledObjects.Count; i++)
+            {
+                disabledObjects[i].SetActive(false);
+            }
 
             for (var i = 0; i < particlesSpawnedWhenDestroyed; i++)
             {

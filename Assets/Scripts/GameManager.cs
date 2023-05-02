@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.SocialPlatforms.GameCenter;
 using Random = UnityEngine.Random;
 
 namespace DefaultNamespace
@@ -26,6 +25,7 @@ namespace DefaultNamespace
         public float minimumDistanceBetweenDeliveries;
         public float moneyDisplayAddSpeed = 5;
         public float moneyGainedFromHittingAPedestrian = .5f;
+        public float percentDecreaseEachMission = 0.05f;
         public float moneyGainedFromHittingACar = 1f;
         public float deliveryTimePerMeter = 1;
         public float cashForServingPerTimeLeft = 10;
@@ -41,6 +41,7 @@ namespace DefaultNamespace
 
         public TMPSpriteFont gameTimer;
         public TextMeshProUGUI deliveryTimer;
+        public TextMeshProUGUI deliveryTimerShadow;
         public PlayerInput player;
         public DeliveryArrow arrow;
         public TextMeshProUGUI moneyLabel;
@@ -59,6 +60,7 @@ namespace DefaultNamespace
         private int m_pedestriansKilled;
         private int m_carsDestroyed;
         private int m_offendersServed;
+        private float m_percentOfReward=1f;
 
         private List<GameObject> m_menus;
         private List<Transform> m_houses;
@@ -189,6 +191,8 @@ namespace DefaultNamespace
 
                     NewDelivery();
                 }
+
+                deliveryTimerShadow.text = deliveryTimer.text;
             }
         }
 
@@ -247,9 +251,10 @@ namespace DefaultNamespace
                 return;
             }
 
+            var currentHouse = m_houses[m_currentDeliveryHouse];
             var lastHouse = m_houses[m_currentDeliveryHouse];
 
-            while (Vector2.Distance(lastHouse.position, player.transform.position) < minimumDistanceBetweenDeliveries)
+            while (Vector2.Distance(lastHouse.position, currentHouse.position) < minimumDistanceBetweenDeliveries)
             {
                 var x = Random.Range(-256, 256);
                 var y = Random.Range(-256, 256);
@@ -310,7 +315,11 @@ namespace DefaultNamespace
                 gameHud.OnServed();
             }
 
-            m_currentGameTime += m_currentDeliveryTime;
+
+            var rewardTime = m_currentDeliveryTime * m_percentOfReward;
+            rewardTime = Mathf.Clamp(rewardTime, 5, 100);
+            m_currentGameTime += rewardTime;
+            m_percentOfReward -= percentDecreaseEachMission;
 
             AddMoney( cashForServingPerTimeLeft * m_currentDeliveryTime);
 

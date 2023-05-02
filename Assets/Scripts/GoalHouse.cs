@@ -24,7 +24,7 @@ namespace DefaultNamespace
             ResetHouse();
         }
 
-        private void ResetHouse()
+        public void ResetHouse()
         {
             m_isGoalHouse = false;
             arrows.SetActive(false);

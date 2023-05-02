@@ -189,8 +189,9 @@ namespace DefaultNamespace
                         gameHud.OnEscaped();
                     }
 
-                    // Deactivate current goal house
-                    // var expired = true
+                    // Bug fix: Deactivate current goal house when criminal escapes
+                    var currentHouse = m_houses[m_currentDeliveryHouse];
+                    currentHouse.GetComponent<GoalHouse>().ResetHouse();
 
                     NewDelivery();
                 }

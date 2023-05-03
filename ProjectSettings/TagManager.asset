@@ -53,6 +53,9 @@ TagManager:
   - name: Shortcuts
     uniqueID: 818231567
     locked: 0
+  - name: LowerProps
+    uniqueID: 800122747
+    locked: 0
   - name: Boundaries
     uniqueID: 4102896181
     locked: 0

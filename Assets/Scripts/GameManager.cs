@@ -73,6 +73,8 @@ namespace DefaultNamespace
         private bool bgMusicSwitch = true;
         private FMOD.Studio.EventInstance ambientAudio;
 
+        private bool m_failedAudioLoad;
+
         private void Awake()
         {
             Instance = this;
@@ -88,9 +90,6 @@ namespace DefaultNamespace
 
             timesUpUi.OnContinue += OnTimesUpContinued;
 
-            ambientAudio = FMODUnity.RuntimeManager.CreateInstance("event:/Ambient/ambient");
-            ambientAudio.start();
-
         }
 
         private void Start()
@@ -103,7 +102,25 @@ namespace DefaultNamespace
             }
 
             m_houses.Shuffle();
-            bgMusic = FMODUnity.RuntimeManager.CreateInstance("event:/Music/gameplayMusic");
+
+            LoadAudio();
+        }
+
+        private void LoadAudio()
+        {
+            try
+            {
+                bgMusic = FMODUnity.RuntimeManager.CreateInstance("event:/Music/gameplayMusic");
+
+                ambientAudio = FMODUnity.RuntimeManager.CreateInstance("event:/Ambient/ambient");
+                ambientAudio.start();
+
+                m_failedAudioLoad = false;
+            }
+            catch (Exception e)
+            {
+                m_failedAudioLoad = true;
+            }
         }
 
         private void OnTimesUpContinued()
@@ -125,23 +142,50 @@ namespace DefaultNamespace
             {
                 gameHud.canvasGroup.alpha = Mathf.MoveTowards(gameHud.canvasGroup.alpha, 0, Time.deltaTime);
 
-                if (Input.GetAxisRaw("Horizontal") > 0)
+                if (Input.GetKeyDown(KeyCode.A))
+                {
+                    SetGameState( GameState.Gameplay );
+                }
+                else if (Input.GetKeyDown(KeyCode.D))
                 {
                     SetGameState( GameState.Gameplay );
                 }
 
-                if (Input.GetAxisRaw("Vertical") > 0)
+                else  if (Input.GetKeyDown(KeyCode.W))
                 {
                     SetGameState( GameState.Gameplay );
                 }
+                else if (Input.GetKeyDown(KeyCode.S))
+                {
+                    SetGameState( GameState.Gameplay );
+                }
+                else if (Input.GetMouseButton(0))
+                {
+                    SetGameState( GameState.Gameplay );
+                }
+
+                // if (Input.GetAxisRaw("Horizontal") > 0)
+                // {
+                //     SetGameState( GameState.Gameplay );
+                // }
+                //
+                // if (Input.GetAxisRaw("Vertical") > 0)
+                // {
+                //     SetGameState( GameState.Gameplay );
+                // }
             }
 
             if (m_currentGameState == GameState.Gameplay)
             {
                 gameHud.canvasGroup.alpha = Mathf.MoveTowards(gameHud.canvasGroup.alpha, 1, Time.deltaTime);
 
-                if (bgMusicSwitch)
+                if (bgMusicSwitch || m_failedAudioLoad)
                 {
+                    if (m_failedAudioLoad)
+                    {
+                        LoadAudio();
+                    }
+
                     bgMusic.start();
                     bgMusicSwitch = false;
                 }

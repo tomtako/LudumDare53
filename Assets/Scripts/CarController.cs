@@ -30,6 +30,8 @@ namespace DefaultNamespace
 
         public Rigidbody2D rb => m_rigidBody;
 
+        private bool m_failedAudioLoad;
+
         private FMOD.Studio.EventInstance playerRun;
 
         private void Awake()
@@ -39,9 +41,23 @@ namespace DefaultNamespace
 
         private void Start()
         {
-            playerRun = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/player");
-            playerRun.setParameterByName("playerRun", 0);
-            playerRun.start();
+            LoadAudio();
+        }
+
+        private void LoadAudio()
+        {
+            try
+            {
+                playerRun = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/player");
+                playerRun.setParameterByName("playerRun", 0);
+                playerRun.start();
+
+                m_failedAudioLoad = false;
+            }
+            catch (Exception e)
+            {
+                m_failedAudioLoad = true;
+            }
         }
 
         private void FixedUpdate()

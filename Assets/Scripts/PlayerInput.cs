@@ -39,32 +39,11 @@ namespace DefaultNamespace
 
             Vector2 input =Vector2.zero;
 
-            // input.x = Input.GetAxisRaw("Horizontal");
-            // input.y = Input.GetAxisRaw("Vertical");
-
-            if (Input.GetKeyDown(KeyCode.A))
-            {
-                input.x = 1;
-            }
-            else if (Input.GetKeyDown(KeyCode.D))
-            {
-                input.x = -1;
-            }
-
-            if (Input.GetKeyDown(KeyCode.W))
-            {
-                input.y = 1;
-            }
-            else if (Input.GetKeyDown(KeyCode.S))
-            {
-                input.y = -1;
-            }
-
-            // input.x = Input.GetAxis("Horizontal");
-            // input.y = Input.GetAxisRaw("Vertical");
+            input.x = Input.GetAxisRaw("Horizontal");
+            input.y = Input.GetAxisRaw("Vertical");
 
             m_controller.SetInputVector(input);
-            m_controller.Brake(Input.GetMouseButton(0) || Input.GetKey(KeyCode.Space));
+            m_controller.Brake(Input.GetButton("Fire1") || Input.GetKey(KeyCode.Space));
 
             UpdateAnimations();
 

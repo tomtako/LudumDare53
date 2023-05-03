@@ -125,37 +125,15 @@ namespace DefaultNamespace
             {
                 gameHud.canvasGroup.alpha = Mathf.MoveTowards(gameHud.canvasGroup.alpha, 0, Time.deltaTime);
 
-                if (Input.GetKeyDown(KeyCode.A))
-                {
-                    SetGameState( GameState.Gameplay );
-                }
-                else if (Input.GetKeyDown(KeyCode.D))
+                if (Input.GetAxisRaw("Horizontal") > 0)
                 {
                     SetGameState( GameState.Gameplay );
                 }
 
-                else  if (Input.GetKeyDown(KeyCode.W))
+                if (Input.GetAxisRaw("Vertical") > 0)
                 {
                     SetGameState( GameState.Gameplay );
                 }
-                else if (Input.GetKeyDown(KeyCode.S))
-                {
-                    SetGameState( GameState.Gameplay );
-                }
-                else if (Input.GetMouseButton(0))
-                {
-                    SetGameState( GameState.Gameplay );
-                }
-
-                // if (Input.GetAxisRaw("Horizontal") > 0)
-                // {
-                //     SetGameState( GameState.Gameplay );
-                // }
-                //
-                // if (Input.GetAxisRaw("Vertical") > 0)
-                // {
-                //     SetGameState( GameState.Gameplay );
-                // }
             }
 
             if (m_currentGameState == GameState.Gameplay)

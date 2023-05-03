@@ -504,7 +504,7 @@ MonoBehaviour:
   EncryptionKey: 
   ImportType: 0
   TargetAssetPath: FMODBanks
-  TargetBankFolder: E:\Work Repos\LD53\LudumDare53\Assets\Audio\Banks\Desktop
+  TargetBankFolder: 
   EventLinkage: 0
   LoggingLevel: 0
   SpeakerModeSettings: []

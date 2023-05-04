@@ -11,6 +11,7 @@ namespace DefaultNamespace
         private FMOD.Studio.EventInstance playerBrake;
         private bool playerBrakeSwitch = true;
 
+        private bool m_failedAudioLoad;
         private void Awake()
         {
             m_controller = GetComponentInParent<CarController>();
@@ -23,7 +24,21 @@ namespace DefaultNamespace
 
         private void Start()
         {
-            playerBrake = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/brake");
+            LoadAudio();
+        }
+
+        private void LoadAudio()
+        {
+            try
+            {
+                playerBrake = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/brake");
+
+                m_failedAudioLoad = false;
+            }
+            catch (Exception e)
+            {
+                m_failedAudioLoad = true;
+            }
         }
 
         private void Update()
